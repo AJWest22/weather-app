@@ -1,0 +1,21 @@
+#header {
+    height: 15em;
+    background-color: #00D7FF;
+    display: flex;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+    text-shadow: 1px 1px black;
+}
+
+img {
+    margin-top: 100px;
+    margin-left: 60px;
+    text-shadow: 2px 2px black;
+}

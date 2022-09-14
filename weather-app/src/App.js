@@ -1,10 +1,11 @@
 import './App.css';
 import CityWeather from './components/CityWeather';
-import info from './weather-data.json'
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <CityWeather />
     </div>
   );
