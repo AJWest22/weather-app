@@ -1,23 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import info from '../weather-data.json'
 import './CityWeather.css'
 
 
 export default function CityWeather() {
+  const [filteredRecord, setFilteredRecord] = useState({});
+
+    useEffect(() => {
+      const record = info.data.filter((it) => it.wind_cdir === "NNW");
+      setFilteredRecord(record[0]);
+    }, []);
+
+
   return (
     <div>
+
       <div>
-        
-        <h2>{info.city_name}</h2>
+        <h2>Weather for {info.city_name}. Date: {filteredRecord.valid_date}</h2>
       </div>
 
       <div>
-        {info.data.map((it, i) => (
-          <p key={i}>{it.weather.description}{it.moon_phase_lunation}</p>
-        ))}
+        <p>Temperature of {filteredRecord.temp} with a high temperature of {filteredRecord.high_temp} with 
+            a max temperature of {filteredRecord.max_temp} with a absolute max temp of {filteredRecord.app_max_temp}.
+        </p>
+        <p>{filteredRecord.wind_cdir_full}</p>
+        <p>{filteredRecord.uv}</p>
       </div>
 
-      
     </div>
   )
 }
