@@ -16,14 +16,14 @@ export default function CityWeather() {
     <div>
 
       <div>
-        <h2>Weather for {info.city_name}. Date: {filteredRecord.valid_date}</h2>
+        <h2>Weather for {info.city_name}. Date: {filteredRecord.valid_date}. {filteredRecord.datetime}</h2>
       </div>
 
       <div>
         <p>Temperature of {filteredRecord.temp} with a high temperature of {filteredRecord.high_temp} with 
             a max temperature of {filteredRecord.max_temp} with a absolute max temp of {filteredRecord.app_max_temp}.
             UV is expected to be {filteredRecord.uv}. Ozone is currently {filteredRecord.ozone}.
-
+            {filteredRecord.low_temp} {filteredRecord.min_temp}
         </p>
         <p>{filteredRecord.wind_cdir}{filteredRecord.wind_cdir_full}{filteredRecord.wind_dir}{filteredRecord.wind_gust_spd}
         {filteredRecord.wind_spd}
