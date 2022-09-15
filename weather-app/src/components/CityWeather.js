@@ -34,6 +34,9 @@ export default function CityWeather() {
         <p>{filteredRecord.ts} {filteredRecord.sunrise_ts} {filteredRecord.sunset_ts} {filteredRecord.moonrise_ts}
         {filteredRecord.moonset_ts}  {filteredRecord.moon_phase} {filteredRecord.moon_phase_lunation}
         </p>
+        <p>Additional Info: {filteredRecord.rh} {filteredRecord.pres} {filteredRecord.pop} {filteredRecord.slp}
+            {filteredRecord.dewpt} {filteredRecord.max_dhi}
+        </p>
       </div>
 
     </div>
