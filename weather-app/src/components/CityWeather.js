@@ -25,7 +25,9 @@ export default function CityWeather() {
             UV is expected to be {filteredRecord.uv}.
 
         </p>
-        <p>{filteredRecord.wind_cdir_full}{filteredRecord.wind_dir}</p>
+        <p>{filteredRecord.wind_cdir}{filteredRecord.wind_cdir_full}{filteredRecord.wind_dir}{filteredRecord.wind_gust_spd}
+        {filteredRecord.wind_spd}
+        </p>
       </div>
 
     </div>
