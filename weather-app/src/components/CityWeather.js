@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import info from '../weather-data.json'
 import './CityWeather.css'
 
-
+// Gets the weather for current day filters through them
 export default function CityWeather() {
   const [filteredRecord, setFilteredRecord] = useState({});
 
@@ -15,9 +15,10 @@ export default function CityWeather() {
 
   return (
     <div>
-
+        {/* Optional Chaining is needed to get weather objects, marks it as undefined but doesn't question it so it loads. */}
       <div>
-        <h2>Weather for {info.city_name}. Date: {filteredRecord.valid_date}. {filteredRecord.datetime}</h2>
+        <h2>Weather for {info.city_name}. Date: {filteredRecord.valid_date}. {filteredRecord?.weather?.icon }</h2>
+        <p>Weather: {filteredRecord?.weather?.description }, {filteredRecord?.weather?.code }</p>
       </div>
 
       <div>
@@ -39,7 +40,7 @@ export default function CityWeather() {
             currently in {filteredRecord.moon_phase} of its moon phase, with its moon phase lunation being {filteredRecord.moon_phase_lunation}.
         </p>
         <p>Additional Info: The rh is: {filteredRecord.rh}. Pres is {filteredRecord.pres}. Pop is {filteredRecord.pop}. Slp is {filteredRecord.slp}. Dewpt is
-            {filteredRecord.dewpt}, and max dhi is {filteredRecord.max_dhi}
+            currently {filteredRecord.dewpt}, and max dhi is {filteredRecord.max_dhi}
         </p>
       </div>
 
