@@ -28,9 +28,11 @@ export default function CityWeather() {
         <p>{filteredRecord.wind_cdir}{filteredRecord.wind_cdir_full}{filteredRecord.wind_dir}{filteredRecord.wind_gust_spd}
         {filteredRecord.wind_spd}
         </p>
-        <p>{filteredRecord.clouds_hi}{filteredRecord.clouds-mid}{filteredRecord.clouds_low} {filteredRecord.vis}
+        <p>{filteredRecord.clouds_hi}{filteredRecord.clouds_mid}{filteredRecord.clouds_low} {filteredRecord.vis}
             {filteredRecord.precip} {filteredRecord.snow} {filteredRecord.snow_depth}
-
+        </p>
+        <p>{filteredRecord.ts} {filteredRecord.sunrise_ts} {filteredRecord.sunset_ts} {filteredRecord.moonrise_ts}
+        {filteredRecord.moonset_ts}  {filteredRecord.moon_phase} {filteredRecord.moon_phase_lunation}
         </p>
       </div>
 
