@@ -22,11 +22,15 @@ export default function CityWeather() {
       <div>
         <p>Temperature of {filteredRecord.temp} with a high temperature of {filteredRecord.high_temp} with 
             a max temperature of {filteredRecord.max_temp} with a absolute max temp of {filteredRecord.app_max_temp}.
-            UV is expected to be {filteredRecord.uv}.
+            UV is expected to be {filteredRecord.uv}. Ozone is currently {filteredRecord.ozone}.
 
         </p>
         <p>{filteredRecord.wind_cdir}{filteredRecord.wind_cdir_full}{filteredRecord.wind_dir}{filteredRecord.wind_gust_spd}
         {filteredRecord.wind_spd}
+        </p>
+        <p>{filteredRecord.clouds_hi}{filteredRecord.clouds-mid}{filteredRecord.clouds_low} {filteredRecord.vis}
+            {filteredRecord.precip} {filteredRecord.snow} {filteredRecord.snow_depth}
+
         </p>
       </div>
 
