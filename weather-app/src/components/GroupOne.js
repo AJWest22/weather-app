@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import info from '../weather-data.json'
+import './GroupOne.css'
 
 export default function GroupOne() {
     const [filteredRecord, setFilteredRecord] = useState({});
@@ -10,7 +11,7 @@ export default function GroupOne() {
     }, []);
   
     return (
-      <div>
+      <div id="group-one">
         <p>{filteredRecord.high_temp}</p>
         <p>{filteredRecord.wind_cdir_full}</p>
         <p>{filteredRecord.valid_date}</p>
