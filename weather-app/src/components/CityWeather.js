@@ -22,9 +22,10 @@ export default function CityWeather() {
       <div>
         <p>Temperature of {filteredRecord.temp} with a high temperature of {filteredRecord.high_temp} with 
             a max temperature of {filteredRecord.max_temp} with a absolute max temp of {filteredRecord.app_max_temp}.
+            UV is expected to be {filteredRecord.max_temp}.
+
         </p>
         <p>{filteredRecord.wind_cdir_full}</p>
-        <p>{filteredRecord.uv}</p>
       </div>
 
     </div>
