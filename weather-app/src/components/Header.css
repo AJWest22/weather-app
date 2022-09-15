@@ -19,3 +19,14 @@ img {
     margin-left: 60px;
     text-shadow: 2px 2px black;
 }
+
+@media screen and (max-width: 943px) {
+
+    h1 {
+        font-size: 40px;
+        margin-left: 10%;
+    }
+    img {
+        margin-right: 10%;
+    }
+}
