@@ -143,7 +143,7 @@ The images on this site are actually icons downloaded from the file sent across 
 
 ## **JSON Files**
 
-The data presented in this app comes from the JSON file sent with the technical challenge. The file contained an array of 16 objects, each one representive of 1 day, with various keys. To present the data on the site, <p> tags and <h2> tags are used to ranslate across. The data contains weather related objects with various keys. The objects and their keys are all presented in the in-depth view of that partcular day, whie a brief overview of the more important ones are displayed in the overview of that partcular day.
+The data presented in this app comes from the JSON file sent with the technical challenge. The file contained an array of 16 objects, each one representive of 1 day, with various keys. To present the data on the site, paragraph tags and header tags are used to ranslate across. The data contains weather related objects with various keys. The objects and their keys are all presented in the in-depth view of that partcular day, whie a brief overview of the more important ones are displayed in the overview of that partcular day.
 
 
 ## **Bugs**
