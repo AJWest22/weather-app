@@ -120,7 +120,7 @@ The site is build using:
 
 ### Files Made
 
-## Design
+## **Design**
 
 The design of the site is not that great there are several CSS bugs I want to fix in it, and also want to polish and smarten it a bit to make it more aesthetically pleasing, however here is a overview of colours and fonts used when creating the site. 
 
@@ -135,4 +135,13 @@ The colours used for this site come from this [site](https://colorhunt.co/) and 
 ### Images 
 
 The images on this site are actually icons downloaded from the file sent across with the technical. I implemented them where appropriate, and also in the header as a way of giving off a relaxed feel while creating a decent aesthetic.
+
+
+## **Code Features**
+
+
+
+## **JSON Files**
+
+The data presented in this app comes from the JSON file sent with the technical challenge. The file contained an array of 16 objects, each one representive of 1 day, with various keys. To present the data on the site, <p> tags and <h2> tags are used to ranslate across. The data contains weather related objects with various keys. The objects and their keys are all presented in the in-depth view of that partcular day, whie a brief overview of the more important ones are displayed in the overview of that partcular day.
 
