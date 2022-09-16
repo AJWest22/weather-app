@@ -25,34 +25,39 @@ export default function GroupOne() {
   
     return (
     <div>
-      <div>
-        <h2>Forecast for the Week Ahead:</h2>
+      <div id="forecast-container">
+        <h2 id="forecast">Forecast for the Next Five Days:</h2>
       </div>
       <div id="group-one">
         <div class="groups">
-          <p>{filteredRecord.wind_dir}</p>
-          <p>{filteredRecord.low_temp}</p>
-          <p>{filteredRecord.max_temp}</p>
+          <h5>Tomorrow's Forecast</h5>
+          <p class="group-text">{filteredRecord.wind_dir}</p>
+          <p class="group-text">{filteredRecord.low_temp}</p>
+          <p class="group-text">{filteredRecord.max_temp}</p>
         </div>
         <div class="groups">
-          <p>{secondFilteredRecord.moonrise_ts}</p>
-          <p>{secondFilteredRecord.wind_cdir}</p>
-          <p>{secondFilteredRecord.high_temp}</p>
+          <h5>Day 2</h5>
+          <p class="group-text">{secondFilteredRecord.moonrise_ts}</p>
+          <p class="group-text">{secondFilteredRecord.wind_cdir}</p>
+          <p class="group-text">{secondFilteredRecord.high_temp}</p>
         </div>
         <div class="groups">
-          <p>{thirdFilteredRecord.wind_dir}</p>
-          <p>{thirdFilteredRecord.clouds_hi}</p>
-          <p>{thirdFilteredRecord.precip}</p>
+          <h5>Day 3</h5>
+          <p class="group-text">{thirdFilteredRecord.wind_dir}</p>
+          <p class="group-text">{thirdFilteredRecord.clouds_hi}</p>
+          <p class="group-text">{thirdFilteredRecord.precip}</p>
         </div>
         <div class="groups">
-          <p>{fourthFilteredRecord.high_temp}</p>
-          <p>{fourthFilteredRecord.clouds}</p>
-          <p>{fourthFilteredRecord.app_min_temp}</p>
+          <h5>Day 4</h5>
+          <p class="group-text">{fourthFilteredRecord.high_temp}</p>
+          <p class="group-text">{fourthFilteredRecord.clouds}</p>
+          <p class="group-text">{fourthFilteredRecord.app_min_temp}</p>
         </div>
         <div class="groups">
-          <p>{fifthFilteredRecord.low_temp}</p>
-          <p>{fifthFilteredRecord.max_temp}</p>
-          <p>{fifthFilteredRecord.temp}</p>
+          <h5>Day 5</h5>
+          <p class="group-text">{fifthFilteredRecord.low_temp}</p>
+          <p class="group-text">{fifthFilteredRecord.max_temp}</p>
+          <p class="group-text">{fifthFilteredRecord.temp}</p>
         </div>
       </div>
     </div>
