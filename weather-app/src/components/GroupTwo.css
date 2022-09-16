@@ -20,13 +20,13 @@
 }
 
 @media screen and (max-width: 943px) {
-
     #forecast-two {
-        
+        margin-left: 0%;
     }
+
     .group-two {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 96%;
     }
 }

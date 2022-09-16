@@ -17,9 +17,13 @@
 }
 
 @media screen and (max-width: 943px) {
+
+    #forecast-three {
+        margin-left: 0%;
+    }
     .group-three {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 96%;
     }
 }

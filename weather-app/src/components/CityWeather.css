@@ -2,7 +2,7 @@ body {
     background-color: #0096FF;
     color: white;
     text-shadow: 1px, 1px, black;
-    height: 50vh;
+    height: 30vh;
 }
 
 h2 {
@@ -40,6 +40,7 @@ img {
 
     h2 {
         margin-right: 0%;
+        font-size: 25px;
     }
 
     h4 {
