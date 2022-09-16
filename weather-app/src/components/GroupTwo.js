@@ -25,8 +25,8 @@ export default function GroupTwo() {
 
   return (
     <div>
-      <div id="forecast-week2">
-        <h2 id="forecast2">Forecast for Week 2:</h2>
+      <div id="forecast-container-two">
+        <h2 id="forecast-two">Forecast for Week 2:</h2>
       </div>
       <div class="group-flex">
         <div class="groups">

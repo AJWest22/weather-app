@@ -38,7 +38,7 @@ h5 {
 }
 
 @media screen and (max-width: 943px) {
-    #group-one {
+    .group-flex {
         display: flex;
         flex-direction: column;
     }
