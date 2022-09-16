@@ -84,4 +84,22 @@ The target audience is the people of York who wish to view their local weather, 
 
 ## **Development of Site**
 
-The following is a brief overview of the development of the site, including the development of the code used, and bugs solved. Any bugs that have been solved have been recorded in the [bugs](#bugs) section of this README. This overview is divided into 3 sections: [Development Bugs](#development-bugs) [CSS Development](#css-development), [React Development](#react-development).
+The following is a brief overview of the development of the site, including the development of the code used, and bugs solved. Any bugs that have yet to be solved have been recorded in the [bugs](#bugs) section of this README. This overview is divided into 3 sections: [Development Bugs](#development-bugs) [CSS Development](#css-development), [React Development](#react-development).
+
+### Development Bugs
+
+During development there were several bugs that were made that are worth mentioning: 
+
+1. When trying to access the weather icon, description and code, when filtering the code, it couldn't be used using dot notation, like the others. I had to access it using chaining, this is why there are question marks around those objects. 
+
+2. When filtering GroupThree there was an issue with the variables not locading and saying objects were undefined. This was fixed by rechecking the spelling of the variables/objects, and copying and pasting in the right values, and spellings.
+
+3. When making the CSS there was an overflow bug in the Group One heading, "Forecast for the Next Five Days". There is still a slight overflow, however it was significantly reduced by removing the margin-left on mobile. 
+
+### CSS Development
+
+CSS is used to style the site, due to the project being asked the value functionality over a ploished look, basic CSS has been used. The colours used are from this [palete](https://colorhunt.co/palette/5800ff0096ff00d7ff72ffff). I chose blue as a main theme, due to one of the colours being #0096FF, which I figured looked like a sky blue, without being too bright and overwhelming. 
+
+### React Development 
+
+The React development of this site was a fun, and interesting challenge. I had worked a bit in React before, but not to this scale, and loved learning more of this framework. Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site.
