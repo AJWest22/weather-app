@@ -21,7 +21,7 @@ h5 {
     padding-top: 25px;
 }
 
-#group-one {
+.group-flex{
     display: flex;
     justify-content: center;
 }
