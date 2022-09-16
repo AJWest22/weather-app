@@ -32,10 +32,8 @@
 10. [Features to be Added](#features-to-be-added)
 
 11. [Credits](#credits)
-     1. [Icons](#icons)
-     2. [Imagery](#imagery)
-     3. [JQuery Framework](#jquery-framework)
-     4. [Crispy Forms](#crispy-forms)
+     1. [Icons](#icons]
+     2. [React Framework](#react-framework)
 
 
 
@@ -155,3 +153,21 @@ The following is a brief overview of some of the known bugs on this site, and ar
 - When resizing the app on mobile, there is some slight overflow, which I believe comes from the "Next 5 Days" header. I removed the margin-left on mobile and that helped it considerably, however it is still pushing things over slghtly. i think it might be due to the padding.
 
 - The shade of blue from the present day weather section drops down a bit to far. I think this is due to the 50vh setting, it is something I am working to correct. 
+
+
+## **Features to be Added**
+
+The design of the site is something I'd like to work a lot more on. I'd like to add rounded corners of around 25px to the divs holding the remaining 15 days forecast, and add a colour change of some kind, so when hovered over the background changes to a differet color and enlarges. I'd also like to add the respective icons to the center of each of those divs. 
+
+
+## **Credits**
+
+For this project I'd like to credit: my family for their support, my mentor Tim Nelson for his support with past projects and for encouraging me to go for this job, and 12 Oaks Software for sending out this enjoyable project.
+
+### Icons
+
+The icons for this project were sent out as part of the challenge and have been used where I think appropriate. I do not own these. All rights go to their respectful owners.
+
+### React Framework 
+
+React is a great framework, and one I hope to work more in in the future. It was installed for this project using the command: 'npx create-react-app app-name --use-npm' NB: "app-name" can be substituted to the name of the app you want to create. 
