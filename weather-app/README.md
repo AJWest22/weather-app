@@ -49,3 +49,23 @@
 - The site's source code can be viewed on GitHub
 
 - The site's title is currently "React Weather App"
+
+
+## **Site Goals**
+
+### UX Goals
+
+- Users can view the weather
+
+- Site is easy to use and navigate
+
+- Site's content is presented clearly
+
+### User Stories
+
+- As a user I want a site that is easy to use/navigate
+
+- As a user I want the information on the site to be easy to read and accessible
+
+- As a user I want a site that is aesthetically pleasing
+
