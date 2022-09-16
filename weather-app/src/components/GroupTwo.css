@@ -16,4 +16,17 @@
     width: 20%;
     background-color: white;
     border: 10px solid #00D7FF;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 943px) {
+
+    #forecast-two {
+        
+    }
+    .group-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
