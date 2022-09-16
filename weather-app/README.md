@@ -103,3 +103,18 @@ CSS is used to style the site, due to the project being asked the value function
 ### React Development 
 
 The React development of this site was a fun, and interesting challenge. I had worked a bit in React before, but not to this scale, and loved learning more of this framework. Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site.
+
+
+## **Code Used**
+
+The site is build using:
+ - *CSS* to add style to the site, for example the font of the typography, and the site's *official* scolor scheme.
+
+ - *React* to offer site structure, layout and functionality.
+
+### Frameworks
+
+- *React* This site was made almost entirely in React (minus the colours which were applied using CSS.) React Hooks were used when filtering the site info to setStates and useEffects. React Router DOM was used for the site's navigation menu.
+
+### Files Made
+
