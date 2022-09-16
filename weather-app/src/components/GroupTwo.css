@@ -11,3 +11,9 @@
     margin-left: 30%;
     padding-top: 25px;
 }
+
+.group-two {
+    width: 20%;
+    background-color: white;
+    border: 10px solid #00D7FF;
+}

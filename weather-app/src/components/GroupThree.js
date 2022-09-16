@@ -26,35 +26,35 @@ export default function GroupThree() {
 
 return (
   <div>
-    <div id="forecast-week3">
-      <h2 id="forecast3">Forecast for Week 3:</h2>
+    <div id="forecast-container-three">
+      <h2 id="forecast-three">Forecast for Week 3:</h2>
     </div>
     <div class="group-flex">
-      <div class="groups">
+      <div class="group-three">
         <h5>Day 11</h5>
         <p class="group-text">{eleventhRecord.wind_dir}</p>
         <p class="group-text">{eleventhRecord.low_temp}</p>
         <p class="group-text">{eleventhRecord.max_temp}</p>
       </div>
-      <div class="groups">
+      <div class="group-three">
         <h5>Day 12</h5>
         <p class="group-text">{twelfthFilteredRecord.moonrise_ts}</p>
         <p class="group-text">{twelfthFilteredRecord.wind_cdir}</p>
         <p class="group-text">{twelfthFilteredRecord.high_temp}</p>
       </div>
-      <div class="groups">
+      <div class="group-three">
         <h5>Day 13</h5>
         <p class="group-text">{thirteenthFilteredRecord.wind_dir}</p>
         <p class="group-text">{thirteenthFilteredRecord.clouds_hi}</p>
         <p class="group-text">{thirteenthFilteredRecord.precip}</p>
       </div>
-      <div class="groups">
+      <div class="group-three">
         <h5>Day 14</h5>
         <p class="group-text">{fourteenthFilteredRecord.high_temp}</p>
         <p class="group-text">{fourteenthFilteredRecord.clouds}</p>
         <p class="group-text">{fourteenthFilteredRecord.app_min_temp}</p>
       </div>
-      <div class="groups">
+      <div class="group-three">
         <h5>Day 15</h5>
         <p class="group-text">{fifteenthFilteredRecord.low_temp}</p>
         <p class="group-text">{fifteenthFilteredRecord.max_temp}</p>
