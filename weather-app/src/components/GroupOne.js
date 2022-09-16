@@ -24,7 +24,7 @@ export default function GroupOne() {
     }, []);
   
     return (
-    <div>
+    <div id="group-one-container">
       <div id="forecast-container">
         <h2 id="forecast">Forecast for the Next Five Days:</h2>
       </div>
