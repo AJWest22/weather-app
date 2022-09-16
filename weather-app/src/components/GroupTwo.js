@@ -3,7 +3,7 @@ import info from '../weather-data.json'
 import './GroupTwo.css'
 
 export default function GroupTwo() {
-    const [sixthRecord, setSixthFilteredRecord] = useState({});
+    const [sixthFilteredRecord, setSixthFilteredRecord] = useState({});
     const [seventhFilteredRecord, setSeventhFilteredRecord] = useState({});
     const [eighthFilteredRecord, setEighthFilteredRecord] = useState({});
     const [ninthFilteredRecord, setNinthFilteredRecord] = useState({});
@@ -31,9 +31,9 @@ export default function GroupTwo() {
       <div class="group-flex">
         <div class="groups">
           <h5>Day 7</h5>
-          <p class="group-text">{sixthRecord.wind_dir}</p>
-          <p class="group-text">{sixthRecord.low_temp}</p>
-          <p class="group-text">{sixthRecord.max_temp}</p>
+          <p class="group-text">{sixthFilteredRecord.wind_dir}</p>
+          <p class="group-text">{sixthFilteredRecord.low_temp}</p>
+          <p class="group-text">{sixthFilteredRecord.max_temp}</p>
         </div>
         <div class="groups">
           <h5>Day 8</h5>
