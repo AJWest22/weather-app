@@ -1,3 +1,19 @@
+p {
+    color: black;
+}
+
 #group-one {
     background-color: #5800FF;
+    display: flex;
+    justify-content: center;
+}
+
+.groups {
+    width: 20%;
+    background-color: white;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
 }
