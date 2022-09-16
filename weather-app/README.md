@@ -145,3 +145,13 @@ The images on this site are actually icons downloaded from the file sent across 
 
 The data presented in this app comes from the JSON file sent with the technical challenge. The file contained an array of 16 objects, each one representive of 1 day, with various keys. To present the data on the site, <p> tags and <h2> tags are used to ranslate across. The data contains weather related objects with various keys. The objects and their keys are all presented in the in-depth view of that partcular day, whie a brief overview of the more important ones are displayed in the overview of that partcular day.
 
+
+## **Bugs**
+
+The following is a brief overview of some of the known bugs on this site, and are things I am actively researching on how to amend ASAP.
+
+- The image of the sun and clouds in the "Todays Weather" section of the site isn't aligned with the text. They should be together, and I'm not sure why that is. I tried to position it with various margin and paddings but it didn't budge. I'm not sure why this is.
+
+- When resizing the app on mobile, there is some slight overflow, which I believe comes from the "Next 5 Days" header. I removed the margin-left on mobile and that helped it considerably, however it is still pushing things over slghtly. i think it might be due to the padding.
+
+- The shade of blue from the present day weather section drops down a bit to far. I think this is due to the 50vh setting, it is something I am working to correct. 
