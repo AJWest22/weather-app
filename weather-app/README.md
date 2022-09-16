@@ -61,6 +61,8 @@
 - Site's content is presented clearly
 
 ### User Stories
+  
+  The following is some of the thought processes I had in mind when making the site when considernig a user's perspective and what they want: 
 
 - As a user I want a site that is easy to use/navigate
 
@@ -117,4 +119,20 @@ The site is build using:
 - *React* This site was made almost entirely in React (minus the colours which were applied using CSS.) React Hooks were used when filtering the site info to setStates and useEffects. React Router DOM was used for the site's navigation menu.
 
 ### Files Made
+
+## Design
+
+The design of the site is not that great there are several CSS bugs I want to fix in it, and also want to polish and smarten it a bit to make it more aesthetically pleasing, however here is a overview of colours and fonts used when creating the site. 
+
+### Typography
+
+All heading tags are of the Times New Roman Font, set to various sizes depending on whether they are Heading 1, 2s, or 5s etc, and screen size. The paragraph font is the default gitpod one, and has been styled to various sizes depending on screen size. Line height has been added to keep the sentences nicely spaced and readble for users. 
+
+### Colours 
+
+The colours used for this site come from this [site](https://colorhunt.co/) and this colour [palette](https://colorhunt.co/palette/5800ff0096ff00d7ff72ffff) I thought that shade of blues would work as it gave off a nice bright feel, like that of a nice day, while also being reminiscient of the colour of the sky. 
+
+### Images 
+
+The images on this site are actually icons downloaded from the file sent across with the technical. I implemented them where appropriate, and also in the header as a way of giving off a relaxed feel while creating a decent aesthetic.
 
