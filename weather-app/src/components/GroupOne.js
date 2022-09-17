@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import {Routes, Route, useNavigate} from 'react-router-dom'
 import info from '../weather-data.json'
+import DayTwo from '../pages/DayTwo.js'
 import './GroupOne.css'
 
 export default function GroupOne() {
@@ -8,6 +10,11 @@ export default function GroupOne() {
     const [thirdFilteredRecord, setThirdFilteredRecord] = useState({});
     const [fourthFilteredRecord, setFourthFilteredRecord] = useState({});
     const [fifthFilteredRecord, setFifthFilteredRecord] = useState({});
+    const navigate = useNavigate();
+
+    const navigateToTomorrow = () => {
+      navigate('/pages/DayTwo');
+    }
 
     useEffect(() => {
       const record = info.data.filter((it) => it.wind_dir === 238);
@@ -34,6 +41,10 @@ export default function GroupOne() {
           <p class="group-text">{filteredRecord.wind_dir}</p>
           <p class="group-text">{filteredRecord.low_temp}</p>
           <p class="group-text">{filteredRecord.max_temp}</p>
+          <button onClick={navigateToTomorrow}>Read More</button>
+          <Routes>
+            <Route path="/pages/DayTwo" element={<DayTwo />}></Route>
+          </Routes>
         </div>
         <div class="groups">
           <h5>Day 3</h5>

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import DayTwo from './pages/DayTwo.js'
 import DayThree from './pages/DayThree.js'
 import DayFour from './pages/DayFour.js'
@@ -19,31 +19,14 @@ import DayThirteen from './pages/DayThirteen.js'
 import DayFourteen from './pages/DayFourteen.js'
 import DayFifteen from './pages/DayFifteen.js'
 import NoPage from './pages/NoPage'
+import Header from './components/Header.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router >
       <App />
-        <Routes>
-          <Route path="/" element={<DayTwo />}>
-            <Route index element={<DayThree />} />
-            <Route path="day-four" element={<DayFour />} />
-            <Route path="day-five" element={<DayFive/>} />
-            <Route path="day-six" element={<DaySix/>} />
-            <Route path="day-seven" element={<DaySeven/>} />
-            <Route path="day-eight" element={<DayEight/>} />
-            <Route path="day-nine" element={<DayNine/>} />
-            <Route path="day-ten" element={<DayTen/>} />
-            <Route path="day-eleven" element={<DayEleven/>} />
-            <Route path="day-twelve" element={<DayTwelve/>} />
-            <Route path="day-thirteen" element={<DayThirteen/>} />
-            <Route path="day-fourteen" element={<DayFourteen/>} />
-            <Route path="day-fifteen" element={<DayFifteen/>} />
-            <Route path="*" element={<NoPage />} />
-          </Route>
-        </Routes>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
 
