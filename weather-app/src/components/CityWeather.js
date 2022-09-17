@@ -18,8 +18,8 @@ export default function CityWeather() {
     <div>
         {/* Optional Chaining is needed to get weather objects, marks it as undefined but doesn't question it so it loads. */}
       <div id="city">
-        <h2 class="date">Weather for {info.city_name}</h2>
-        <h4 class="date">Date: {filteredRecord.valid_date}. {filteredRecord?.weather?.icon }. Weather: {filteredRecord?.weather?.description }, {filteredRecord?.weather?.code }</h4>
+        <h2 id="city-name">Weather for {info.city_name}</h2>
+        <h4 id="date">Date: {filteredRecord.valid_date}. {filteredRecord?.weather?.icon }. Weather: {filteredRecord?.weather?.description }, {filteredRecord?.weather?.code }</h4>
       </div>
       <div id="alignment">
         <p id="today">Today there is a temperature of {filteredRecord.temp} degrees expected around midday. This is slightly below average
