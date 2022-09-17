@@ -23,9 +23,11 @@ export default function CityWeather() {
       </div>
 
       <div id="alignment">
-        <p>Temperature of {filteredRecord.temp} with a max temperature of {filteredRecord.max_temp}.
-            A low temperature of {filteredRecord.low_temp} is expected, with a min temperature of 
-            {filteredRecord.min_temp}
+        <p>Today there is a temperature of {filteredRecord.temp} degrees expected around midday. This is slightly below average
+           for this time of year. A max temperature is expected to be around {filteredRecord.max_temp} degrees which could be 
+           seen sometime between 2 and 3pm. A low temperature of {filteredRecord.low_temp} degrees is expected later on this 
+           evening, with a min temperature of {filteredRecord.min_temp} degrees expected to be seen around sunrise. All 
+           temperatures are recorded in Celsius.
         </p>
         <img src={icon} alt="todays weather" height="150px" width="150px"></img>
       </div>
