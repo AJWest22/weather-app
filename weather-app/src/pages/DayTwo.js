@@ -7,7 +7,6 @@ import'../components/GroupOne.js'
 export default function DayTwo() {
   return (
     <div>
-        <h2>Tomorrow's Forecast</h2>
     </div>
   )
 }
