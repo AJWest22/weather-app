@@ -28,36 +28,36 @@ export default function GroupTwo() {
       <div id="forecast-container-two">
         <h2 id="forecast-two">Forecast for Week 2:</h2>
       </div>
-      <div class="group-flex">
-        <div class="group-two">
+      <div className="group-flex">
+        <div className="group-two">
           <h5>Day 7</h5>
-          <p class="group-text">{sixthRecord.wind_dir}</p>
-          <p class="group-text">{sixthRecord.low_temp}</p>
-          <p class="group-text">{sixthRecord.max_temp}</p>
+          <p className="group-text">{sixthRecord.wind_dir}</p>
+          <p className="group-text">{sixthRecord.low_temp}</p>
+          <p className="group-text">{sixthRecord.max_temp}</p>
         </div>
-        <div class="group-two">
+        <div className="group-two">
           <h5>Day 8</h5>
-          <p class="group-text">{seventhFilteredRecord.moonrise_ts}</p>
-          <p class="group-text">{seventhFilteredRecord.wind_cdir}</p>
-          <p class="group-text">{seventhFilteredRecord.high_temp}</p>
+          <p className="group-text">{seventhFilteredRecord.moonrise_ts}</p>
+          <p className="group-text">{seventhFilteredRecord.wind_cdir}</p>
+          <p className="group-text">{seventhFilteredRecord.high_temp}</p>
         </div>
-        <div class="group-two">
+        <div className="group-two">
           <h5>Day 9</h5>
-          <p class="group-text">{eighthFilteredRecord.wind_dir}</p>
-          <p class="group-text">{eighthFilteredRecord.clouds_hi}</p>
-          <p class="group-text">{eighthFilteredRecord.precip}</p>
+          <p className="group-text">{eighthFilteredRecord.wind_dir}</p>
+          <p className="group-text">{eighthFilteredRecord.clouds_hi}</p>
+          <p className="group-text">{eighthFilteredRecord.precip}</p>
         </div>
-        <div class="group-two">
+        <div className="group-two">
           <h5>Day 10</h5>
-          <p class="group-text">{ninthFilteredRecord.high_temp}</p>
-          <p class="group-text">{ninthFilteredRecord.clouds}</p>
-          <p class="group-text">{ninthFilteredRecord.app_min_temp}</p>
+          <p className="group-text">{ninthFilteredRecord.high_temp}</p>
+          <p className="group-text">{ninthFilteredRecord.clouds}</p>
+          <p className="group-text">{ninthFilteredRecord.app_min_temp}</p>
         </div>
-        <div class="group-two">
+        <div className="group-two">
           <h5>Day 11</h5>
-          <p class="group-text">{tenthFilteredRecord.low_temp}</p>
-          <p class="group-text">{tenthFilteredRecord.max_temp}</p>
-          <p class="group-text">{tenthFilteredRecord.temp}</p>
+          <p className="group-text">{tenthFilteredRecord.low_temp}</p>
+          <p className="group-text">{tenthFilteredRecord.max_temp}</p>
+          <p className="group-text">{tenthFilteredRecord.temp}</p>
         </div>
       </div>
     </div>

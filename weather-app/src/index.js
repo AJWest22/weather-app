@@ -4,29 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
-import DayTwo from './pages/DayTwo.js'
-import DayThree from './pages/DayThree.js'
-import DayFour from './pages/DayFour.js'
-import DayFive from './pages/DayFive.js'
-import DaySix from './pages/DaySix.js'
-import DaySeven from './pages/DaySeven.js'
-import DayEight from './pages/DayEight.js'
-import DayNine from './pages/DayNine.js'
-import DayTen from './pages/DayTen.js'
-import DayEleven from './pages/DayEleven.js'
-import DayTwelve from './pages/DayTwelve.js'
-import DayThirteen from './pages/DayThirteen.js'
-import DayFourteen from './pages/DayFourteen.js'
-import DayFifteen from './pages/DayFifteen.js'
-import NoPage from './pages/NoPage'
-import Header from './components/Header.js'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router >
       <App />
-    </Router>
   </React.StrictMode>
 );
 

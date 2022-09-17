@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import {Routes, Route, useNavigate} from 'react-router-dom'
+import {Routes, Route, HashRouter, Link} from 'react-router-dom'
 import info from '../weather-data.json'
 import DayTwo from '../pages/DayTwo.js'
+import DayThree from '../pages/DayThree.js'
+import DayFour from '../pages/DayFour.js'
+import DayFive from '../pages/DayFive.js'
+import DaySix from '../pages/DaySix.js'
 import './GroupOne.css'
+import GroupThree from './GroupThree';
 
 export default function GroupOne() {
     const [filteredRecord, setFilteredRecord] = useState({});
@@ -10,11 +15,7 @@ export default function GroupOne() {
     const [thirdFilteredRecord, setThirdFilteredRecord] = useState({});
     const [fourthFilteredRecord, setFourthFilteredRecord] = useState({});
     const [fifthFilteredRecord, setFifthFilteredRecord] = useState({});
-    const navigate = useNavigate();
 
-    const navigateToTomorrow = () => {
-      navigate('/pages/DayTwo');
-    }
 
     useEffect(() => {
       const record = info.data.filter((it) => it.wind_dir === 238);
@@ -35,40 +36,37 @@ export default function GroupOne() {
       <div id="forecast-container">
         <h2 id="forecast">Forecast for the Next Five Days:</h2>
       </div>
-      <div class="group-flex">
-        <div class="groups">
+      <div className="group-flex">
+        <div className="groups">
           <h5>Tomorrow's Forecast</h5>
-          <p class="group-text">{filteredRecord.wind_dir}</p>
-          <p class="group-text">{filteredRecord.low_temp}</p>
-          <p class="group-text">{filteredRecord.max_temp}</p>
-          <button onClick={navigateToTomorrow}>Read More</button>
-          <Routes>
-            <Route path="/pages/DayTwo" element={<DayTwo />}></Route>
-          </Routes>
+          <p className="group-text">{filteredRecord.wind_dir}</p>
+          <p className="group-text">{filteredRecord.low_temp}</p>
+          <p className="group-text">{filteredRecord.max_temp}</p>
+          <Link to="/pages/daytwo">Read More</Link>
         </div>
-        <div class="groups">
+        <div className="groups">
           <h5>Day 3</h5>
-          <p class="group-text">{secondFilteredRecord.moonrise_ts}</p>
-          <p class="group-text">{secondFilteredRecord.wind_cdir}</p>
-          <p class="group-text">{secondFilteredRecord.high_temp}</p>
+          <p className="group-text">{secondFilteredRecord.moonrise_ts}</p>
+          <p className="group-text">{secondFilteredRecord.wind_cdir}</p>
+          <p className="group-text">{secondFilteredRecord.high_temp}</p>
         </div>
-        <div class="groups">
+        <div className="groups">
           <h5>Day 4</h5>
-          <p class="group-text">{thirdFilteredRecord.wind_dir}</p>
-          <p class="group-text">{thirdFilteredRecord.clouds_hi}</p>
-          <p class="group-text">{thirdFilteredRecord.precip}</p>
+          <p className="group-text">{thirdFilteredRecord.wind_dir}</p>
+          <p className="group-text">{thirdFilteredRecord.clouds_hi}</p>
+          <p className="group-text">{thirdFilteredRecord.precip}</p>
         </div>
-        <div class="groups">
+        <div className="groups">
           <h5>Day 5</h5>
-          <p class="group-text">{fourthFilteredRecord.high_temp}</p>
-          <p class="group-text">{fourthFilteredRecord.clouds}</p>
-          <p class="group-text">{fourthFilteredRecord.app_min_temp}</p>
+          <p className="group-text">{fourthFilteredRecord.high_temp}</p>
+          <p className="group-text">{fourthFilteredRecord.clouds}</p>
+          <p className="group-text">{fourthFilteredRecord.app_min_temp}</p>
         </div>
-        <div class="groups">
+        <div className="groups">
           <h5>Day 6</h5>
-          <p class="group-text">{fifthFilteredRecord.low_temp}</p>
-          <p class="group-text">{fifthFilteredRecord.max_temp}</p>
-          <p class="group-text">{fifthFilteredRecord.temp}</p>
+          <p className="group-text">{fifthFilteredRecord.low_temp}</p>
+          <p className="group-text">{fifthFilteredRecord.max_temp}</p>
+          <p className="group-text">{fifthFilteredRecord.temp}</p>
         </div>
       </div>
     </div>

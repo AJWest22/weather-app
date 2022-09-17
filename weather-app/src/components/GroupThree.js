@@ -29,36 +29,36 @@ return (
     <div id="forecast-container-three">
       <h2 id="forecast-three">Forecast for Week 3:</h2>
     </div>
-    <div class="group-flex">
-      <div class="group-three">
+    <div className="group-flex">
+      <div className="group-three">
         <h5>Day 11</h5>
-        <p class="group-text">{eleventhRecord.wind_dir}</p>
-        <p class="group-text">{eleventhRecord.low_temp}</p>
-        <p class="group-text">{eleventhRecord.max_temp}</p>
+        <p className="group-text">{eleventhRecord.wind_dir}</p>
+        <p className="group-text">{eleventhRecord.low_temp}</p>
+        <p className="group-text">{eleventhRecord.max_temp}</p>
       </div>
-      <div class="group-three">
+      <div className="group-three">
         <h5>Day 12</h5>
-        <p class="group-text">{twelfthFilteredRecord.moonrise_ts}</p>
-        <p class="group-text">{twelfthFilteredRecord.wind_cdir}</p>
-        <p class="group-text">{twelfthFilteredRecord.high_temp}</p>
+        <p className="group-text">{twelfthFilteredRecord.moonrise_ts}</p>
+        <p className="group-text">{twelfthFilteredRecord.wind_cdir}</p>
+        <p className="group-text">{twelfthFilteredRecord.high_temp}</p>
       </div>
-      <div class="group-three">
+      <div className="group-three">
         <h5>Day 13</h5>
-        <p class="group-text">{thirteenthFilteredRecord.wind_dir}</p>
-        <p class="group-text">{thirteenthFilteredRecord.clouds_hi}</p>
-        <p class="group-text">{thirteenthFilteredRecord.precip}</p>
+        <p className="group-text">{thirteenthFilteredRecord.wind_dir}</p>
+        <p className="group-text">{thirteenthFilteredRecord.clouds_hi}</p>
+        <p className="group-text">{thirteenthFilteredRecord.precip}</p>
       </div>
-      <div class="group-three">
+      <div className="group-three">
         <h5>Day 14</h5>
-        <p class="group-text">{fourteenthFilteredRecord.high_temp}</p>
-        <p class="group-text">{fourteenthFilteredRecord.clouds}</p>
-        <p class="group-text">{fourteenthFilteredRecord.app_min_temp}</p>
+        <p className="group-text">{fourteenthFilteredRecord.high_temp}</p>
+        <p className="group-text">{fourteenthFilteredRecord.clouds}</p>
+        <p className="group-text">{fourteenthFilteredRecord.app_min_temp}</p>
       </div>
-      <div class="group-three">
+      <div className="group-three">
         <h5>Day 15</h5>
-        <p class="group-text">{fifteenthFilteredRecord.low_temp}</p>
-        <p class="group-text">{fifteenthFilteredRecord.max_temp}</p>
-        <p class="group-text">{fifteenthFilteredRecord.temp}</p>
+        <p className="group-text">{fifteenthFilteredRecord.low_temp}</p>
+        <p className="group-text">{fifteenthFilteredRecord.max_temp}</p>
+        <p className="group-text">{fifteenthFilteredRecord.temp}</p>
       </div>
     </div>
   </div>
