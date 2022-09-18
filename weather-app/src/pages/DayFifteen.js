@@ -15,6 +15,8 @@ export default function DayFifteen() {
       <h3>Day Fifteen</h3>
 
       <h6>
+        Location: {info.city_name}, Longitude: {info.lon}, Timezone: {info.timezone}, Latitude: {info.lat},
+        Country Code: {info.country_code}, State Code: {info.state_code}.
         Weather code: {fifteenthRecord?.weather?.code}. 
         Weather Description: {fifteenthRecord?.weather?.description}
       </h6>

@@ -17,12 +17,14 @@ export default function DayTwo() {
       <h3>Tomorrow's Forecast</h3>
 
       <h6>
+        Location: {info.city_name}, Longitude: {info.lon}, Timezone: {info.timezone}, Latitude: {info.lat},
+        Country Code: {info.country_code}, State Code: {info.state_code}.
         Weather code: {detailedRecord?.weather?.code}. 
         Weather Description: {detailedRecord?.weather?.description}
       </h6>
 
       <div>
-          <p >
+          <p>
             For {detailedRecord?.datetime} at this time {detailedRecord?.datetime}
             There is a average temperature of {detailedRecord?.temp} and a low temperature 
             of {detailedRecord?.low_temp} and a high temperature of {detailedRecord?.high_temp}. 

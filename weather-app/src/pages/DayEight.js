@@ -15,6 +15,8 @@ export default function DayEight() {
       <h3>Day Eight</h3>
 
       <h6>
+        Location: {info.city_name}, Longitude: {info.lon}, Timezone: {info.timezone}, Latitude: {info.lat},
+        Country Code: {info.country_code}, State Code: {info.state_code}.
         Weather code: {eighthRecord?.weather?.code}. 
         Weather Description: {eighthRecord?.weather?.description}
       </h6>

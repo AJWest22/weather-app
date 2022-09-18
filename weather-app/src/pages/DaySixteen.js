@@ -14,6 +14,8 @@ export default function DaySixteen() {
       <h3>Day Sixteen</h3>
 
       <h6>
+        Location: {info.city_name}, Longitude: {info.lon}, Timezone: {info.timezone}, Latitude: {info.lat},
+        Country Code: {info.country_code}, State Code: {info.state_code}.
         Weather code: {sixteenthRecord?.weather?.code}. 
         Weather Description: {sixteenthRecord?.weather?.description}
       </h6>
