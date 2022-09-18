@@ -23,7 +23,7 @@ export default function DayEight() {
         For {eighthRecord?.valid_date} at this time {eighthRecord?.datetime}
         There is a average temperature of {eighthRecord?.temp} and a low temperature 
         of {eighthRecord?.low_temp} and a high temperature of {eighthRecord?.high_temp}. 
-        There's a max temperature of {eighthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {eighthRecord?.max_temp} and a min temperature 
         of {eighthRecord?.min_temp}. The app max temperature is {eighthRecord?.app_max_temp} and 
         the app min temperature is {eighthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayEight() {
 
         Precipitation is {eighthRecord?.precip}. Snow is currently at {eighthRecord?.snow} and 
         snow depth {eighthRecord?.snow_depth}. The clouds are {eighthRecord?.clouds}. The hi clouds 
-        are currently at {eighthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {eighthRecord?.clouds_low}. This means vis is currently {eighthRecord?.vis}.
+        are currently at {eighthRecord?.clouds_hi} and the mid clouds are {eighthRecord?.clouds_mid} and 
+        low clouds are at {eighthRecord?.clouds_low}. This means vis is currently {eighthRecord?.vis}.
 
         Sunrise is set for {eighthRecord?.sunrise_ts} and sunset for {eighthRecord?.sunset_ts}. 
         Moonrise is currently timed for {eighthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayEight() {
         is {eighthRecord?.dewpt} UV radiation is expected to be {eighthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

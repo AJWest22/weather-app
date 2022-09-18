@@ -23,7 +23,7 @@ const DayThirteen = () => {
         For {thirteenthRecord?.valid_date} at this time {thirteenthRecord?.datetime}
         There is a average temperature of {thirteenthRecord?.temp} and a low temperature 
         of {thirteenthRecord?.low_temp} and a high temperature of {thirteenthRecord?.high_temp}. 
-        There's a max temperature of {thirteenthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {thirteenthRecord?.max_temp} and a min temperature 
         of {thirteenthRecord?.min_temp}. The app max temperature is {thirteenthRecord?.app_max_temp} and 
         the app min temperature is {thirteenthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ const DayThirteen = () => {
 
         Precipitation is {thirteenthRecord?.precip}. Snow is currently at {thirteenthRecord?.snow} and 
         snow depth {thirteenthRecord?.snow_depth}. The clouds are {thirteenthRecord?.clouds}. The hi clouds 
-        are currently at {thirteenthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {thirteenthRecord?.clouds_low}. This means vis is currently {thirteenthRecord?.vis}.
+        are currently at {thirteenthRecord?.clouds_hi} and the mid clouds {thirteenthRecord?.clouds_mid} are 
+        and low clouds are at {thirteenthRecord?.clouds_low}. This means vis is currently {thirteenthRecord?.vis}.
 
         Sunrise is set for {thirteenthRecord?.sunrise_ts} and sunset for {thirteenthRecord?.sunset_ts}. 
         Moonrise is currently timed for {thirteenthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ const DayThirteen = () => {
         is {thirteenthRecord?.dewpt} UV radiation is expected to be {thirteenthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

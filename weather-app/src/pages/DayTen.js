@@ -23,7 +23,7 @@ export default function DayTen() {
         For {tenthRecord?.valid_date} at this time {tenthRecord?.datetime}
         There is a average temperature of {tenthRecord?.temp} and a low temperature 
         of {tenthRecord?.low_temp} and a high temperature of {tenthRecord?.high_temp}. 
-        There's a max temperature of {tenthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {tenthRecord?.max_temp} and a min temperature 
         of {tenthRecord?.min_temp}. The app max temperature is {tenthRecord?.app_max_temp} and 
         the app min temperature is {tenthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayTen() {
 
         Precipitation is {tenthRecord?.precip}. Snow is currently at {tenthRecord?.snow} and 
         snow depth {tenthRecord?.snow_depth}. The clouds are {tenthRecord?.clouds}. The hi clouds 
-        are currently at {tenthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {tenthRecord?.clouds_low}. This means vis is currently {tenthRecord?.vis}.
+        are currently at {tenthRecord?.clouds_hi} and the mid clouds are {tenthRecord?.clouds_mid} and 
+        low clouds are at {tenthRecord?.clouds_low}. This means vis is currently {tenthRecord?.vis}.
 
         Sunrise is set for {tenthRecord?.sunrise_ts} and sunset for {tenthRecord?.sunset_ts}. 
         Moonrise is currently timed for {tenthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayTen() {
         is {tenthRecord?.dewpt} UV radiation is expected to be {tenthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

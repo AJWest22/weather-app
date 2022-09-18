@@ -23,7 +23,7 @@ export default function DayFourteen() {
         For {fourteenthRecord?.valid_date} at this time {fourteenthRecord?.datetime}
         There is a average temperature of {fourteenthRecord?.temp} and a low temperature 
         of {fourteenthRecord?.low_temp} and a high temperature of {fourteenthRecord?.high_temp}. 
-        There's a max temperature of {fourteenthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {fourteenthRecord?.max_temp} and a min temperature 
         of {fourteenthRecord?.min_temp}. The app max temperature is {fourteenthRecord?.app_max_temp} and 
         the app min temperature is {fourteenthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayFourteen() {
 
         Precipitation is {fourteenthRecord?.precip}. Snow is currently at {fourteenthRecord?.snow} and 
         snow depth {fourteenthRecord?.snow_depth}. The clouds are {fourteenthRecord?.clouds}. The hi clouds 
-        are currently at {fourteenthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {fourteenthRecord?.clouds_low}. This means vis is currently {fourteenthRecord?.vis}.
+        are currently at {fourteenthRecord?.clouds_hi} and the mid clouds {fourteenthRecord?.clouds_mid} are 
+        and low clouds are at {fourteenthRecord?.clouds_low}. This means vis is currently {fourteenthRecord?.vis}.
 
         Sunrise is set for {fourteenthRecord?.sunrise_ts} and sunset for {fourteenthRecord?.sunset_ts}. 
         Moonrise is currently timed for {fourteenthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayFourteen() {
         is {fourteenthRecord?.dewpt} UV radiation is expected to be {fourteenthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

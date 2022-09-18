@@ -23,7 +23,7 @@ export default function DayEleven() {
         For {eleventhRecord?.valid_date} at this time {eleventhRecord?.datetime}
         There is a average temperature of {eleventhRecord?.temp} and a low temperature 
         of {eleventhRecord?.low_temp} and a high temperature of {eleventhRecord?.high_temp}. 
-        There's a max temperature of {eleventhRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {eleventhRecord?.max_temp} and a min temperature 
         of {eleventhRecord?.min_temp}. The app max temperature is {eleventhRecord?.app_max_temp} and 
         the app min temperature is {eleventhRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayEleven() {
 
         Precipitation is {eleventhRecord?.precip}. Snow is currently at {eleventhRecord?.snow} and 
         snow depth {eleventhRecord?.snow_depth}. The clouds are {eleventhRecord?.clouds}. The hi clouds 
-        are currently at {eleventhRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {eleventhRecord?.clouds_low}. This means vis is currently {eleventhRecord?.vis}.
+        are currently at {eleventhRecord?.clouds_hi} and the mid clouds are {eleventhRecord?.clouds_mid} and 
+        low clouds are at {eleventhRecord?.clouds_low}. This means vis is currently {eleventhRecord?.vis}.
 
         Sunrise is set for {eleventhRecord?.sunrise_ts} and sunset for {eleventhRecord?.sunset_ts}. 
         Moonrise is currently timed for {eleventhRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayEleven() {
         is {eleventhRecord?.dewpt} UV radiation is expected to be {eleventhRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

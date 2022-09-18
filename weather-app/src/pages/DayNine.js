@@ -23,7 +23,7 @@ export default function DayNine() {
         For {ninthRecord?.valid_date} at this time {ninthRecord?.datetime}
         There is a average temperature of {ninthRecord?.temp} and a low temperature 
         of {ninthRecord?.low_temp} and a high temperature of {ninthRecord?.high_temp}. 
-        There's a max temperature of {ninthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {ninthRecord?.max_temp} and a min temperature 
         of {ninthRecord?.min_temp}. The app max temperature is {ninthRecord?.app_max_temp} and 
         the app min temperature is {ninthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayNine() {
 
         Precipitation is {ninthRecord?.precip}. Snow is currently at {ninthRecord?.snow} and 
         snow depth {ninthRecord?.snow_depth}. The clouds are {ninthRecord?.clouds}. The hi clouds 
-        are currently at {ninthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {ninthRecord?.clouds_low}. This means vis is currently {ninthRecord?.vis}.
+        are currently at {ninthRecord?.clouds_hi} and the mid clouds {ninthRecord?.clouds_mid} are  
+        and low clouds are at {ninthRecord?.clouds_low}. This means vis is currently {ninthRecord?.vis}.
 
         Sunrise is set for {ninthRecord?.sunrise_ts} and sunset for {ninthRecord?.sunset_ts}. 
         Moonrise is currently timed for {ninthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayNine() {
         is {ninthRecord?.dewpt} UV radiation is expected to be {ninthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

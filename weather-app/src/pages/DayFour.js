@@ -13,7 +13,7 @@ export default function DayFour() {
   return (
     <div>
       <h3>Day Four</h3>
-      
+
       <h6>
         Weather code: {fourthRecord?.weather?.code}. 
         Weather Description: {fourthRecord?.weather?.description}
@@ -23,7 +23,7 @@ export default function DayFour() {
         For {fourthRecord?.valid_date} at this time {fourthRecord?.datetime}
         There is a average temperature of {fourthRecord?.temp} and a low temperature 
         of {fourthRecord?.low_temp} and a high temperature of {fourthRecord?.high_temp}. 
-        There's a max temperature of {fourthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {fourthRecord?.max_temp} and a min temperature 
         of {fourthRecord?.min_temp}. The app max temperature is {fourthRecord?.app_max_temp} and 
         the app min temperature is {fourthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayFour() {
 
         Precipitation is {fourthRecord?.precip}. Snow is currently at {fourthRecord?.snow} and 
         snow depth {fourthRecord?.snow_depth}. The clouds are {fourthRecord?.clouds}. The hi clouds 
-        are currently at {fourthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {fourthRecord?.clouds_low}. This means vis is currently {fourthRecord?.vis}.
+        are currently at {fourthRecord?.clouds_hi} and the mid clouds are {fourthRecord?.clouds_mid} and 
+        low clouds are at {fourthRecord?.clouds_low}. This means vis is currently {fourthRecord?.vis}.
 
         Sunrise is set for {fourthRecord?.sunrise_ts} and sunset for {fourthRecord?.sunset_ts}. 
         Moonrise is currently timed for {fourthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayFour() {
         is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

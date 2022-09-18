@@ -23,7 +23,7 @@ export default function DaySix() {
         For {sixthRecord?.valid_date} at this time {sixthRecord?.datetime}
         There is a average temperature of {sixthRecord?.temp} and a low temperature 
         of {sixthRecord?.low_temp} and a high temperature of {sixthRecord?.high_temp}. 
-        There's a max temperature of {sixthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {sixthRecord?.max_temp} and a min temperature 
         of {sixthRecord?.min_temp}. The app max temperature is {sixthRecord?.app_max_temp} and 
         the app min temperature is {sixthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DaySix() {
 
         Precipitation is {sixthRecord?.precip}. Snow is currently at {sixthRecord?.snow} and 
         snow depth {sixthRecord?.snow_depth}. The clouds are {sixthRecord?.clouds}. The hi clouds 
-        are currently at {sixthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {sixthRecord?.clouds_low}. This means vis is currently {sixthRecord?.vis}.
+        are currently at {sixthRecord?.clouds_hi} and the mid clouds are {sixthRecord?.clouds_mid} and 
+        low clouds are at {sixthRecord?.clouds_low}. This means vis is currently {sixthRecord?.vis}.
 
         Sunrise is set for {sixthRecord?.sunrise_ts} and sunset for {sixthRecord?.sunset_ts}. 
         Moonrise is currently timed for {sixthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DaySix() {
         is {sixthRecord?.dewpt} UV radiation is expected to be {sixthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

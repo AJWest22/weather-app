@@ -23,7 +23,7 @@ export default function DayFive() {
         For {fifthRecord?.valid_date} at this time {fifthRecord?.datetime}
         There is a average temperature of {fifthRecord?.temp} and a low temperature 
         of {fifthRecord?.low_temp} and a high temperature of {fifthRecord?.high_temp}. 
-        There's a max temperature of {fifthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {fifthRecord?.max_temp} and a min temperature 
         of {fifthRecord?.min_temp}. The app max temperature is {fifthRecord?.app_max_temp} and 
         the app min temperature is {fifthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayFive() {
 
         Precipitation is {fifthRecord?.precip}. Snow is currently at {fifthRecord?.snow} and 
         snow depth {fifthRecord?.snow_depth}. The clouds are {fifthRecord?.clouds}. The hi clouds 
-        are currently at {fifthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {fifthRecord?.clouds_low}. This means vis is currently {fifthRecord?.vis}.
+        are currently at {fifthRecord?.clouds_hi} and the mid clouds are {fifthRecord?.clouds_mid} and 
+        low clouds are at {fifthRecord?.clouds_low}. This means vis is currently {fifthRecord?.vis}.
 
         Sunrise is set for {fifthRecord?.sunrise_ts} and sunset for {fifthRecord?.sunset_ts}. 
         Moonrise is currently timed for {fifthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayFive() {
         is {fifthRecord?.dewpt} UV radiation is expected to be {fifthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

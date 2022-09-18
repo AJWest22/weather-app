@@ -23,7 +23,7 @@ export default function DayFifteen() {
         For {fifteenthRecord?.valid_date} at this time {fifteenthRecord?.datetime}
         There is a average temperature of {fifteenthRecord?.temp} and a low temperature 
         of {fifteenthRecord?.low_temp} and a high temperature of {fifteenthRecord?.high_temp}. 
-        There's a max temperature of {fifteenthRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {fifteenthRecord?.max_temp} and a min temperature 
         of {fifteenthRecord?.min_temp}. The app max temperature is {fifteenthRecord?.app_max_temp} and 
         the app min temperature is {fifteenthRecord?.app_min_temp}.
 
@@ -33,8 +33,8 @@ export default function DayFifteen() {
 
         Precipitation is {fifteenthRecord?.precip}. Snow is currently at {fifteenthRecord?.snow} and 
         snow depth {fifteenthRecord?.snow_depth}. The clouds are {fifteenthRecord?.clouds}. The hi clouds 
-        are currently at {fifteenthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {fifteenthRecord?.clouds_low}. This means vis is currently {fifteenthRecord?.vis}.
+        are currently at {fifteenthRecord?.clouds_hi} and the mid clouds are {fifteenthRecord?.clouds_mid} and 
+        low clouds are at {fifteenthRecord?.clouds_low}. This means vis is currently {fifteenthRecord?.vis}.
 
         Sunrise is set for {fifteenthRecord?.sunrise_ts} and sunset for {fifteenthRecord?.sunset_ts}. 
         Moonrise is currently timed for {fifteenthRecord?.moonrise_ts} and scheduled to set
@@ -47,7 +47,7 @@ export default function DayFifteen() {
         is {fifteenthRecord?.dewpt} UV radiation is expected to be {fifteenthRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }

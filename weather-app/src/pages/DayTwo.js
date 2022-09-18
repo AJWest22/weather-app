@@ -26,7 +26,7 @@ export default function DayTwo() {
             For {detailedRecord?.datetime} at this time {detailedRecord?.datetime}
             There is a average temperature of {detailedRecord?.temp} and a low temperature 
             of {detailedRecord?.low_temp} and a high temperature of {detailedRecord?.high_temp}. 
-            There's a max temperature of {detailedRecord?.max_temp} and a mintemperature 
+            There's a max temperature of {detailedRecord?.max_temp} and a min temperature 
             of {detailedRecord?.min_temp}. The app max temperature is {detailedRecord?.app_max_temp} and 
             the app min temperature is {detailedRecord?.app_min_temp}.
 
@@ -36,8 +36,8 @@ export default function DayTwo() {
 
             Precipitation is {detailedRecord?.precip}. Snow is currently at {detailedRecord?.snow} and 
             snow depth {detailedRecord?.snow_depth}. The clouds are {detailedRecord?.clouds}. The hi clouds 
-            are currently at {detailedRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-            at {detailedRecord?.clouds_low}. This means vis is currently {detailedRecord?.vis}.
+            are currently at {detailedRecord?.clouds_hi} and the mid clouds are {twelfthRecord?.clouds_mid} and 
+            low clouds are at {detailedRecord?.clouds_low}. This means vis is currently {detailedRecord?.vis}.
 
             Sunrise is set for {detailedRecord?.sunrise_ts} and sunset for {detailedRecord?.sunset_ts}. 
             Moonrise is currently timed for {detailedRecord?.moonrise_ts} and scheduled to set
@@ -49,7 +49,7 @@ export default function DayTwo() {
             and the pop is {detailedRecord?.pop}. The slp is at {detailedRecord?.slp}. The dewpt 
             is {detailedRecord?.dewpt} UV radiation is expected to be {detailedRecord?.uv}.
         </p>
-        <img src={icon} width="100px" height="100px"></img>
+        <img src={icon} className="icon"></img>
       </div>
     </div>
     

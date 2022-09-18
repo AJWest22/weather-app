@@ -24,7 +24,7 @@ export default function DayThree() {
         For {thirdRecord?.valid_date} at this time {thirdRecord?.datetime}
         There is a average temperature of {thirdRecord?.temp} and a low temperature 
         of {thirdRecord?.low_temp} and a high temperature of {thirdRecord?.high_temp}. 
-        There's a max temperature of {thirdRecord?.max_temp} and a mintemperature 
+        There's a max temperature of {thirdRecord?.max_temp} and a min temperature 
         of {thirdRecord?.min_temp}. The app max temperature is {thirdRecord?.app_max_temp} and 
         the app min temperature is {thirdRecord?.app_min_temp}.
 
@@ -34,8 +34,8 @@ export default function DayThree() {
 
         Precipitation is {thirdRecord?.precip}. Snow is currently at {thirdRecord?.snow} and 
         snow depth {thirdRecord?.snow_depth}. The clouds are {thirdRecord?.clouds}. The hi clouds 
-        are currently at {thirdRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
-        at {thirdRecord?.clouds_low}. This means vis is currently {thirdRecord?.vis}.
+        are currently at {thirdRecord?.clouds_hi}  and the mid clouds are {thirdRecord?.clouds_mid} and 
+        low clouds are at {thirdRecord?.clouds_low}. This means vis is currently {thirdRecord?.vis}.
 
         Sunrise is set for {thirdRecord?.sunrise_ts} and sunset for {thirdRecord?.sunset_ts}. 
         Moonrise is currently timed for {thirdRecord?.moonrise_ts} and scheduled to set
@@ -48,7 +48,7 @@ export default function DayThree() {
         is {thirdRecord?.dewpt} UV radiation is expected to be {thirdRecord?.uv}.
       </p>
 
-      <img src={icon} width="100px" height="100px"></img>
+      <img src={icon} className="icon"></img>
     </div>
   )
 }
