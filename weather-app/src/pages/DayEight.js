@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const DayEight = () => {
+export default function DayEight() {
   return (
     <div>DayEight</div>
   )

@@ -10,6 +10,11 @@ import DayThree from './pages/DayThree';
 import DayFour from './pages/DayFour';
 import DayFive from './pages/DayFive';
 import DaySix from './pages/DaySix';
+import DaySeven from './pages/DaySeven';
+import DayEight from './pages/DayEight'
+import DayNine from './pages/DayNine';
+import DayTen from './pages/DayTen'
+import DayEleven from './pages/DayEleven';
 import Data from './Data';
 
 
@@ -24,6 +29,11 @@ function App() {
             <Route path='/pages/dayfour' element={<DayFour/>} />
             <Route path='/pages/dayfive' element={<DayFive/>} />
             <Route path='/pages/daysix' element={<DaySix />} />
+            <Route path='/pages/dayseven' element={<DaySeven />} />
+            <Route path='/pages/dayeight' element={<DayEight />} />
+            <Route path='/pages/daynine' element={<DayNine />} />
+            <Route path='/pages/dayten' element={<DayTen />} />
+            <Route path='/pages/dayeleven' element={<DayEleven />} />
         </Routes >
     </div>
     </HashRouter>
