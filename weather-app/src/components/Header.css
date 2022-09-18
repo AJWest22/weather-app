@@ -28,14 +28,17 @@ img {
 
     #header {
         padding-bottom: 15%;
+        height: 10em;
     }
 
     h1 {
         font-size: 40px;
-        margin-left: 10%;
+        margin-top: 1%;
+        margin-left: 20%;
     }
 
     img {
+        margin-top: 1%;
         margin-right: 10%;
     }
 }
