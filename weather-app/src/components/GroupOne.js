@@ -49,24 +49,28 @@ export default function GroupOne() {
           <p className="group-text">{secondFilteredRecord.moonrise_ts}</p>
           <p className="group-text">{secondFilteredRecord.wind_cdir}</p>
           <p className="group-text">{secondFilteredRecord.high_temp}</p>
+          <Link to="/pages/daythree">Read More</Link>
         </div>
         <div className="groups">
           <h5>Day 4</h5>
           <p className="group-text">{thirdFilteredRecord.wind_dir}</p>
           <p className="group-text">{thirdFilteredRecord.clouds_hi}</p>
           <p className="group-text">{thirdFilteredRecord.precip}</p>
+          <Link to="/pages/dayfour">Read More</Link>
         </div>
         <div className="groups">
           <h5>Day 5</h5>
           <p className="group-text">{fourthFilteredRecord.high_temp}</p>
           <p className="group-text">{fourthFilteredRecord.clouds}</p>
           <p className="group-text">{fourthFilteredRecord.app_min_temp}</p>
+          <Link to="/pages/dayfive">Read More</Link>
         </div>
         <div className="groups">
           <h5>Day 6</h5>
           <p className="group-text">{fifthFilteredRecord.low_temp}</p>
           <p className="group-text">{fifthFilteredRecord.max_temp}</p>
           <p className="group-text">{fifthFilteredRecord.temp}</p>
+          <Link to="/pages/daysix">Read More</Link>
         </div>
       </div>
     </div>

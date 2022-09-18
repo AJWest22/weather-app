@@ -1,6 +1,7 @@
 import React from 'react'
+import'../components/GroupOne.js'
 
-export const DayFour = () => {
+export default function DayFour() {
   return (
     <div>DayFour</div>
   )

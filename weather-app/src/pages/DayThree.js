@@ -1,9 +1,8 @@
 import React from 'react'
+import'../components/GroupOne.js'
 
-const DayThree = () => {
+export default function DayThree() {
   return (
     <div>DayThree</div>
   )
 }
-
-export default DayThree
