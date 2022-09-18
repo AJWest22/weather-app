@@ -12,11 +12,11 @@ export default function GroupThree() {
   const [fifteenthFilteredRecord, setFifteenthFilteredRecord] = useState({});
 
   useEffect(() => {
-      const eleventhRecord = info.data.filter((it) => it.rh === 75);
-      const twelfthRecord = info.data.filter((it) => it.rh === 86);
-      const thirteenthRecord= info.data.filter((it) => it.rh === 79);
-      const fourteenthRecord = info.data.filter((it) => it.rh === 83);
-      const fifteenthRecord = info.data.filter((it) => it.rh === 84);
+      const eleventhRecord = info.data.filter((it) => it.wind_cdir === "E");
+      const twelfthRecord = info.data.filter((it) => it.wind_cdir === "S");
+      const thirteenthRecord= info.data.filter((it) => it.wind_cdir === "SSW");
+      const fourteenthRecord = info.data.filter((it) => it.rh === 84);
+      const fifteenthRecord = info.data.filter((it) => it.wind_cdir === "SE");
       setEleventhFilteredRecord(eleventhRecord[0]);
       setTwelfthFilteredRecord(twelfthRecord[0]);
       setThirteenthFilteredRecord(thirteenthRecord[0]);

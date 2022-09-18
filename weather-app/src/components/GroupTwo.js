@@ -11,11 +11,11 @@ export default function GroupTwo() {
     const [tenthFilteredRecord, setTenthFilteredRecord] = useState({});
 
     useEffect(() => {
-        const sixthRecord = info.data.filter((it) => it.rh === 74);
-        const seventhRecord = info.data.filter((it) => it.wind_cdir === "NW");
-        const eighthRecord= info.data.filter((it) => it.wind_cdir === "W");
-        const ninthRecord = info.data.filter((it) => it.wind_cdir === "WSW");
-        const tenthRecord = info.data.filter((it) => it.wind_cdir === "SW");
+        const sixthRecord = info.data.filter((it) => it.rh === 76);
+        const seventhRecord = info.data.filter((it) => it.wind_cdir === "W");
+        const eighthRecord= info.data.filter((it) => it.wind_cdir === "WSW");
+        const ninthRecord = info.data.filter((it) => it.wind_cdir === "SW");
+        const tenthRecord = info.data.filter((it) => it.wind_cdir === "SSW");
         setSixthFilteredRecord(sixthRecord[0]);
         setSeventhFilteredRecord(seventhRecord[0]);
         setEighthFilteredRecord(eighthRecord[0]);

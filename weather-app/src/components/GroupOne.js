@@ -19,10 +19,10 @@ export default function GroupOne() {
 
     useEffect(() => {
       const record = info.data.filter((it) => it.wind_dir === 289);
-      const secondRecord = info.data.filter((it) => it.wind_cdir === "WNW");
-      const thirdRecord = info.data.filter((it) => it.wind_cdir === "NW");
-      const fourthRecord = info.data.filter((it) => it.wind_cdir === "NNW");
-      const fifthRecord = info.data.filter((it) => it.rh === 72);
+      const secondRecord = info.data.filter((it) => it.wind_cdir === "NW");
+      const thirdRecord = info.data.filter((it) => it.wind_cdir === "NNW");
+      const fourthRecord = info.data.filter((it) => it.rh === 72);
+      const fifthRecord = info.data.filter((it) => it.rh === 74);
       setFilteredRecord(record[0]);
       setSecondFilteredRecord(secondRecord[0]);
       setThirdFilteredRecord(thirdRecord[0]);
