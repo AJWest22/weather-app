@@ -179,7 +179,7 @@ The following is a brief overview of some of the known bugs on this site, and ar
 
 ## **Features to be Added**
 
-The design of the site is something I'd like to work a lot more on. I'd like to add rounded corners of around 25px to the divs holding the remaining 15 days forecast, and add a colour change of some kind, so when hovered over the background changes to a differet color and enlarges. I'd also like to add the respective icons to the center of each of those divs. 
+The design of the site is something I'd like to work a lot more on. I'd like to add rounded corners of around 25px to the divs holding the remaining 15 days forecast and add a colour change of some kind, so when hovered over the background changes to a differet color and enlarges. I'd also like to add the respective icons to the center of each of those divs on the homepage.
 
 
 ## **Credits**
