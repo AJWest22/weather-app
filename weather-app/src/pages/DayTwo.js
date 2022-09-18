@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
 import'../components/GroupOne.js'
+import icon from '../icons/c03d.png'
 
 
 export default function DayTwo() {
@@ -45,6 +46,7 @@ export default function DayTwo() {
         is {detailedRecord.dewpt} UV radiation is expected to be {detailedRecord.uv}. The dhi
         is set for {detailedRecord.max_dhi}
     </p>
+    <img src={icon} width="100px" height="100px"></img>
     </div>
   )
 }
