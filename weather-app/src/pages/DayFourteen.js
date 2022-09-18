@@ -8,8 +8,44 @@ export default function DayFourteen() {
     const fourteenthDetail = info.data.filter((it) => it.rh === 79);
     setFourteenthRecord(fourteenthDetail[0]);
   }, []);
+
   return (
-    <div>DayFourteen</div>
+    <div>
+      <h3>Day Fourteen</h3>
+
+      <p>
+        Weather code: {fourteenthRecord?.weather?.code}. 
+        Weather Description: {fourteenthRecord?.weather?.description}
+      </p>
+
+      <p>
+        For {fourteenthRecord?.valid_date} at this time {fourteenthRecord?.datetime}
+        There is a average temperature of {fourteenthRecord?.temp} and a low temperature 
+        of {fourteenthRecord?.low_temp} and a high temperature of {fourteenthRecord?.high_temp}. 
+        There's a max temperature of {fourteenthRecord?.max_temp} and a mintemperature 
+        of {fourteenthRecord?.min_temp}. The app max temperature is {fourteenthRecord?.app_max_temp} and 
+        the app min temperature is {fourteenthRecord?.app_min_temp}.
+
+        The wind CDR is {fourteenthRecord?.wind_cdr} and the full CDR is {fourteenthRecord?.wind_cdr_full}. 
+        The wind direction is currently {fourteenthRecord?.wind_dir}. The wind speed is currently 
+        at {fourteenthRecord?.wind_spd} with gust speeds expected to be {fourteenthRecord?.wind_gust_spd}.
+
+        Precipitation is {fourteenthRecord?.precip}. Snow is currently at {fourteenthRecord?.snow} and 
+        snow depth {fourteenthRecord?.snow_depth}. The clouds are {fourteenthRecord?.clouds}. The hi clouds 
+        are currently at {fourteenthRecord?.clouds_hi}and the mid cloudsare  and low clouds are 
+        at {fourteenthRecord?.clouds_low}. This means vis is currently {fourteenthRecord?.vis}.
+
+        Sunrise is set for {fourteenthRecord?.sunrise_ts} and sunset for {fourteenthRecord?.sunset_ts}. 
+        Moonrise is currently timed for {fourteenthRecord?.moonrise_ts} and scheduled to set
+        at {fourteenthRecord?.moonset_ts}. The moon phase is currently {fourteenthRecord?.moon_phase} and 
+        the moon phase lunation is {fourteenthRecord?.moon_phase_lunation}.
+
+        Other information: rh is currently {fourteenthRecord?.rh}. The pres is {fourteenthRecord?.pres}. 
+        The ozone is currently at {fourteenthRecord?.ozone}. The ts is {fourteenthRecord?.ts}
+        and the pop is {fourteenthRecord?.pop}. The slp is at {fourteenthRecord?.slp}. The dewpt 
+        is {fourteenthRecord?.dewpt} UV radiation is expected to be {fourteenthRecord?.uv}.
+      </p>
+    </div>
   )
 }
 

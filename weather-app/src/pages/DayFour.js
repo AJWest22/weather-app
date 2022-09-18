@@ -11,7 +11,7 @@ export default function DayFour() {
   }, []);
   return (
     <div>
-      <h3>DayFour</h3>
+      <h3>Day Four</h3>
       <p>
         Weather code: {fourthRecord?.weather?.code}. 
         Weather Description: {fourthRecord?.weather?.description}
@@ -42,8 +42,7 @@ export default function DayFour() {
         Other information: rh is currently {fourthRecord?.rh}. The pres is {fourthRecord?.pres}. 
         The ozone is currently at {fourthRecord?.ozone}. The ts is {fourthRecord?.ts}
         and the pop is {fourthRecord?.pop}. The slp is at {fourthRecord?.slp}. The dewpt 
-        is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}. The dhi
-        is set for {fourthRecord?.max_dhi}
+        is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}.
       </p>
     </div>
   )
