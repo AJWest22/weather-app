@@ -33,37 +33,37 @@ return (
     <div className="group-flex">
       <div className="group-three">
         <h5>Day 12</h5>
-        <p className="group-text">{eleventhFilteredRecord.wind_dir}</p>
-        <p className="group-text">{eleventhFilteredRecord.low_temp}</p>
-        <p className="group-text">{eleventhFilteredRecord.max_temp}</p>
+        <p className="group-text">Wind Dir: {eleventhFilteredRecord.wind_dir}</p>
+        <p className="group-text">Low Temperature: {eleventhFilteredRecord.low_temp}</p>
+        <p className="group-text">Max Temperature: {eleventhFilteredRecord.max_temp}</p>
         <Link to="/pages/daytwelve">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 13</h5>
-        <p className="group-text">{twelfthFilteredRecord.moonrise_ts}</p>
-        <p className="group-text">{twelfthFilteredRecord.wind_cdir}</p>
-        <p className="group-text">{twelfthFilteredRecord.high_temp}</p>
+        <p className="group-text">Moonrise Ts: {twelfthFilteredRecord.moonrise_ts}</p>
+        <p className="group-text">Wind CDIR: {twelfthFilteredRecord.wind_cdir}</p>
+        <p className="group-text">High Temperature: {twelfthFilteredRecord.high_temp}</p>
         <Link to="/pages/daythirteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 14</h5>
-        <p className="group-text">{thirteenthFilteredRecord.wind_dir}</p>
-        <p className="group-text">{thirteenthFilteredRecord.clouds_hi}</p>
-        <p className="group-text">{thirteenthFilteredRecord.precip}</p>
+        <p className="group-text">Wind Direction: {thirteenthFilteredRecord.wind_dir}</p>
+        <p className="group-text">Clouds Hi: {thirteenthFilteredRecord.clouds_hi}</p>
+        <p className="group-text">Precipitation: {thirteenthFilteredRecord.precip}</p>
         <Link to="/pages/dayfourteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 15</h5>
-        <p className="group-text">{fourteenthFilteredRecord.high_temp}</p>
-        <p className="group-text">{fourteenthFilteredRecord.clouds}</p>
-        <p className="group-text">{fourteenthFilteredRecord.app_min_temp}</p>
+        <p className="group-text">High Temperature: {fourteenthFilteredRecord.high_temp}</p>
+        <p className="group-text">Clouds: {fourteenthFilteredRecord.clouds}</p>
+        <p className="group-text">App Min Temperature: {fourteenthFilteredRecord.app_min_temp}</p>
         <Link to="/pages/dayfifteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 16</h5>
-        <p className="group-text">{fifteenthFilteredRecord.low_temp}</p>
-        <p className="group-text">{fifteenthFilteredRecord.max_temp}</p>
-        <p className="group-text">{fifteenthFilteredRecord.temp}</p>
+        <p className="group-text">Low Temperature: {fifteenthFilteredRecord.low_temp}</p>
+        <p className="group-text">Max Temperature: {fifteenthFilteredRecord.max_temp}</p>
+        <p className="group-text">Temperature: {fifteenthFilteredRecord.temp}</p>
         <Link to="/pages/daysixteen">Read More</Link>
       </div>
     </div>
