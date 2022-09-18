@@ -193,3 +193,7 @@ The icons for this project were sent out as part of the challenge and have been 
 ### React Framework 
 
 React is a great framework, and one I hope to work more in in the future. It was installed for this project using the command: 'npx create-react-app app-name --use-npm' NB: "app-name" can be substituted to the name of the app you want to create. 
+
+### React Router
+
+React Router is a library used by the majority of react apps to provide navigation between multiple pages. It was installed using the command: npm install -i react-router-dom
