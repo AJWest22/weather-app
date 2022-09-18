@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
+import icon from '../icons/c03d.png'
 
 export default function DayFourteen() {
   const [fourteenthRecord, setFourteenthRecord] = useState({});
@@ -45,6 +46,8 @@ export default function DayFourteen() {
         and the pop is {fourteenthRecord?.pop}. The slp is at {fourteenthRecord?.slp}. The dewpt 
         is {fourteenthRecord?.dewpt} UV radiation is expected to be {fourteenthRecord?.uv}.
       </p>
+
+      <img src={icon} width="100px" height="100px"></img>
     </div>
   )
 }

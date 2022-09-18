@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
+import icon from '../icons/c03d.png'
 import'../components/GroupOne.js'
 
 export default function DayThree() {
@@ -45,6 +46,8 @@ export default function DayThree() {
         and the pop is {thirdRecord?.pop}. The slp is at {thirdRecord?.slp}. The dewpt 
         is {thirdRecord?.dewpt} UV radiation is expected to be {thirdRecord?.uv}.
       </p>
+
+      <img src={icon} width="100px" height="100px"></img>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
+import icon from '../icons/c03d.png'
 
 export default function DayEleven() {
   const [eleventhRecord, setEleventhRecord] = useState({});
@@ -45,6 +46,8 @@ export default function DayEleven() {
         and the pop is {eleventhRecord?.pop}. The slp is at {eleventhRecord?.slp}. The dewpt 
         is {eleventhRecord?.dewpt} UV radiation is expected to be {eleventhRecord?.uv}.
       </p>
+
+      <img src={icon} width="100px" height="100px"></img>
     </div>
   )
 }

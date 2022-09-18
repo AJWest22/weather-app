@@ -69,3 +69,16 @@ p {
   margin-right: 5%;
 }
 
+.alignment {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 943px) {
+
+  .alignment {
+    display: flex;
+    
+    justify-content: center;
+  }
+}

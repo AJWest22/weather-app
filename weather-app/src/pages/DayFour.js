@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import info from '../weather-data.json'
+import icon from '../icons/c03d.png'
 import'../components/GroupOne.js'
 
 export default function DayFour() {
@@ -44,6 +45,8 @@ export default function DayFour() {
         and the pop is {fourthRecord?.pop}. The slp is at {fourthRecord?.slp}. The dewpt 
         is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}.
       </p>
+
+      <img src={icon} width="100px" height="100px"></img>
     </div>
   )
 }
