@@ -14,10 +14,10 @@ export default function DaySix() {
     <div>
       <h3>Day Six</h3>
 
-      <p>
+      <h6>
         Weather code: {sixthRecord?.weather?.code}. 
         Weather Description: {sixthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {sixthRecord?.valid_date} at this time {sixthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DaySix() {
         of {sixthRecord?.min_temp}. The app max temperature is {sixthRecord?.app_max_temp} and 
         the app min temperature is {sixthRecord?.app_min_temp}.
 
-        The wind CDR is {sixthRecord?.wind_cdr} and the full CDR is {sixthRecord?.wind_cdr_full}. 
+        The wind CDR is {sixthRecord?.wind_cdir} and the full CDR is {sixthRecord?.wind_cdir_full}. 
         The wind direction is currently {sixthRecord?.wind_dir}. The wind speed is currently 
         at {sixthRecord?.wind_spd} with gust speeds expected to be {sixthRecord?.wind_gust_spd}.
 

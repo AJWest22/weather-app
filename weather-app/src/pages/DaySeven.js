@@ -14,10 +14,10 @@ export default function DaySeven() {
     <div>
       <h3>Day Seven</h3>
 
-      <p>
+      <h6>
         Weather code: {seventhRecord?.weather?.code}. 
         Weather Description: {seventhRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {seventhRecord?.valid_date} at this time {seventhRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DaySeven() {
         of {seventhRecord?.min_temp}. The app max temperature is {seventhRecord?.app_max_temp} and 
         the app min temperature is {seventhRecord?.app_min_temp}.
 
-        The wind CDR is {seventhRecord?.wind_cdr} and the full CDR is {seventhRecord?.wind_cdr_full}. 
+        The wind CDR is {seventhRecord?.wind_cdir} and the full CDR is {seventhRecord?.wind_cdir_full}. 
         The wind direction is currently {seventhRecord?.wind_dir}. The wind speed is currently 
         at {seventhRecord?.wind_spd} with gust speeds expected to be {seventhRecord?.wind_gust_spd}.
 

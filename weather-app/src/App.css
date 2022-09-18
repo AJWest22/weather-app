@@ -51,13 +51,21 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 40px;
 }
 
 h4 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   margin-right: 40%;
+}
+
+h6 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 p {
@@ -67,18 +75,4 @@ p {
   line-height: 1.8em;
   margin-left: 5%;
   margin-right: 5%;
-}
-
-.alignment {
-  display: flex;
-  justify-content: center;
-}
-
-@media screen and (max-width: 943px) {
-
-  .alignment {
-    display: flex;
-    
-    justify-content: center;
-  }
 }

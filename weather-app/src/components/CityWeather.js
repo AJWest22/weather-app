@@ -21,7 +21,7 @@ export default function CityWeather() {
         <h2 id="city-name">Weather for {info.city_name}</h2>
         <h4 id="date">Date: {filteredRecord.valid_date}. Weather: {filteredRecord?.weather?.description }</h4>
       </div>
-      <div className="alignment">
+      <div id="alignment">
         <p id="today">Today there is a temperature of {filteredRecord.temp} degrees expected around midday. This is slightly below average
            for this time of year. A max temperature is expected to be around {filteredRecord.max_temp} degrees which could be 
            seen sometime between 2 and 3pm. A low temperature of {filteredRecord.low_temp} degrees is expected later on this 

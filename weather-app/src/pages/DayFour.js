@@ -13,10 +13,11 @@ export default function DayFour() {
   return (
     <div>
       <h3>Day Four</h3>
-      <p>
+      
+      <h6>
         Weather code: {fourthRecord?.weather?.code}. 
         Weather Description: {fourthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {fourthRecord?.valid_date} at this time {fourthRecord?.datetime}
@@ -26,7 +27,7 @@ export default function DayFour() {
         of {fourthRecord?.min_temp}. The app max temperature is {fourthRecord?.app_max_temp} and 
         the app min temperature is {fourthRecord?.app_min_temp}.
 
-        The wind CDR is {fourthRecord?.wind_cdr} and the full CDR is {fourthRecord?.wind_cdr_full}. 
+        The wind CDR is {fourthRecord?.wind_cdir} and the full CDR is {fourthRecord?.wind_cdir_full}. 
         The wind direction is currently {fourthRecord?.wind_dir}. The wind speed is currently 
         at {fourthRecord?.wind_spd} with gust speeds expected to be {fourthRecord?.wind_gust_spd}.
 

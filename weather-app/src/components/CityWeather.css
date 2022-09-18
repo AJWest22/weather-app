@@ -19,6 +19,11 @@
     width: 50%;
 }
 
+#alignment {
+    display: flex;
+    justify-content: center;
+}
+
 #width {
     width: 20%;
     height: 200px;
@@ -57,7 +62,7 @@
         margin-bottom: 0%;
     }
 
-    .alignment {
+    #alignment {
         display: flex;
         flex-direction: column;
     }

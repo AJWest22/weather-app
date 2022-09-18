@@ -14,10 +14,10 @@ export default function DayFourteen() {
     <div>
       <h3>Day Fourteen</h3>
 
-      <p>
+      <h6>
         Weather code: {fourteenthRecord?.weather?.code}. 
         Weather Description: {fourteenthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {fourteenthRecord?.valid_date} at this time {fourteenthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayFourteen() {
         of {fourteenthRecord?.min_temp}. The app max temperature is {fourteenthRecord?.app_max_temp} and 
         the app min temperature is {fourteenthRecord?.app_min_temp}.
 
-        The wind CDR is {fourteenthRecord?.wind_cdr} and the full CDR is {fourteenthRecord?.wind_cdr_full}. 
+        The wind CDR is {fourteenthRecord?.wind_cdir} and the full CDR is {fourteenthRecord?.wind_cdir_full}. 
         The wind direction is currently {fourteenthRecord?.wind_dir}. The wind speed is currently 
         at {fourteenthRecord?.wind_spd} with gust speeds expected to be {fourteenthRecord?.wind_gust_spd}.
 

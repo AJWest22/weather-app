@@ -13,10 +13,10 @@ export default function DaySixteen() {
     <div>
       <h3>Day Sixteen</h3>
 
-      <p>
+      <h6>
         Weather code: {sixteenthRecord?.weather?.code}. 
         Weather Description: {sixteenthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {sixteenthRecord?.valid_date} at this time {sixteenthRecord?.datetime}
@@ -26,7 +26,7 @@ export default function DaySixteen() {
         of {sixteenthRecord?.min_temp}. The app max temperature is {sixteenthRecord?.app_max_temp} and 
         the app min temperature is {sixteenthRecord?.app_min_temp}.
 
-        The wind CDR is {sixteenthRecord?.wind_cdr} and the full CDR is {sixteenthRecord?.wind_cdr_full}. 
+        The wind CDR is {sixteenthRecord?.wind_cdir} and the full CDR is {sixteenthRecord?.wind_cdir_full}. 
         The wind direction is currently {sixteenthRecord?.wind_dir}. The wind speed is currently 
         at {sixteenthRecord?.wind_spd} with gust speeds expected to be {sixteenthRecord?.wind_gust_spd}.
 

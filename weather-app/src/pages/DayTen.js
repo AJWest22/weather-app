@@ -14,10 +14,10 @@ export default function DayTen() {
     <div>
       <h3>Day Ten</h3>
 
-      <p>
+      <h6>
         Weather code: {tenthRecord?.weather?.code}. 
         Weather Description: {tenthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {tenthRecord?.valid_date} at this time {tenthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayTen() {
         of {tenthRecord?.min_temp}. The app max temperature is {tenthRecord?.app_max_temp} and 
         the app min temperature is {tenthRecord?.app_min_temp}.
 
-        The wind CDR is {tenthRecord?.wind_cdr} and the full CDR is {tenthRecord?.wind_cdr_full}. 
+        The wind CDR is {tenthRecord?.wind_cdir} and the full CDR is {tenthRecord?.wind_cdir_full}. 
         The wind direction is currently {tenthRecord?.wind_dir}. The wind speed is currently 
         at {tenthRecord?.wind_spd} with gust speeds expected to be {tenthRecord?.wind_gust_spd}.
 

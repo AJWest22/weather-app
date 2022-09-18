@@ -16,13 +16,13 @@ export default function DayTwo() {
 
       <h3>Tomorrow's Forecast</h3>
 
-      <p>
+      <h6>
         Weather code: {detailedRecord?.weather?.code}. 
         Weather Description: {detailedRecord?.weather?.description}
-      </p>
+      </h6>
 
-      <div className="alignment">
-          <p>
+      <div>
+          <p >
             For {detailedRecord?.datetime} at this time {detailedRecord?.datetime}
             There is a average temperature of {detailedRecord?.temp} and a low temperature 
             of {detailedRecord?.low_temp} and a high temperature of {detailedRecord?.high_temp}. 
@@ -30,7 +30,7 @@ export default function DayTwo() {
             of {detailedRecord?.min_temp}. The app max temperature is {detailedRecord?.app_max_temp} and 
             the app min temperature is {detailedRecord?.app_min_temp}.
 
-            The wind CDR is {detailedRecord?.wind_cdr} and the full CDR is {detailedRecord?.wind_cdr_full}. 
+            The wind CDR is {detailedRecord?.wind_cdir} and the full CDR is {detailedRecord?.wind_cdir_full}. 
             The wind direction is currently {detailedRecord?.wind_dir}. The wind speed is currently 
             at {detailedRecord?.wind_spd} with gust speeds expected to be {detailedRecord?.wind_gust_spd}.
 

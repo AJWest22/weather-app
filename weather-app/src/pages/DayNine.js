@@ -14,10 +14,10 @@ export default function DayNine() {
     <div>
       <h3>Day Nine</h3>
 
-      <p>
+      <h6>
         Weather code: {ninthRecord?.weather?.code}. 
         Weather Description: {ninthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {ninthRecord?.valid_date} at this time {ninthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayNine() {
         of {ninthRecord?.min_temp}. The app max temperature is {ninthRecord?.app_max_temp} and 
         the app min temperature is {ninthRecord?.app_min_temp}.
 
-        The wind CDR is {ninthRecord?.wind_cdr} and the full CDR is {ninthRecord?.wind_cdr_full}. 
+        The wind CDR is {ninthRecord?.wind_cdir} and the full CDR is {ninthRecord?.wind_cdir_full}. 
         The wind direction is currently {ninthRecord?.wind_dir}. The wind speed is currently 
         at {ninthRecord?.wind_spd} with gust speeds expected to be {ninthRecord?.wind_gust_spd}.
 

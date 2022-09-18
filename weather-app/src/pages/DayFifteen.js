@@ -14,10 +14,10 @@ export default function DayFifteen() {
     <div>
       <h3>Day Fifteen</h3>
 
-      <p>
+      <h6>
         Weather code: {fifteenthRecord?.weather?.code}. 
         Weather Description: {fifteenthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {fifteenthRecord?.valid_date} at this time {fifteenthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayFifteen() {
         of {fifteenthRecord?.min_temp}. The app max temperature is {fifteenthRecord?.app_max_temp} and 
         the app min temperature is {fifteenthRecord?.app_min_temp}.
 
-        The wind CDR is {fifteenthRecord?.wind_cdr} and the full CDR is {fifteenthRecord?.wind_cdr_full}. 
+        The wind CDR is {fifteenthRecord?.wind_cdir} and the full CDR is {fifteenthRecord?.wind_cdir_full}. 
         The wind direction is currently {fifteenthRecord?.wind_dir}. The wind speed is currently 
         at {fifteenthRecord?.wind_spd} with gust speeds expected to be {fifteenthRecord?.wind_gust_spd}.
 

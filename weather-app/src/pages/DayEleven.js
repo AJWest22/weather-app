@@ -14,10 +14,10 @@ export default function DayEleven() {
     <div>
       <h3>Day Eleven</h3>
 
-      <p>
+      <h6>
         Weather code: {eleventhRecord?.weather?.code}. 
         Weather Description: {eleventhRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {eleventhRecord?.valid_date} at this time {eleventhRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayEleven() {
         of {eleventhRecord?.min_temp}. The app max temperature is {eleventhRecord?.app_max_temp} and 
         the app min temperature is {eleventhRecord?.app_min_temp}.
 
-        The wind CDR is {eleventhRecord?.wind_cdr} and the full CDR is {eleventhRecord?.wind_cdr_full}. 
+        The wind CDR is {eleventhRecord?.wind_cdir} and the full CDR is {eleventhRecord?.wind_cdir_full}. 
         The wind direction is currently {eleventhRecord?.wind_dir}. The wind speed is currently 
         at {eleventhRecord?.wind_spd} with gust speeds expected to be {eleventhRecord?.wind_gust_spd}.
 

@@ -14,10 +14,11 @@ export default function DayThree() {
   return (
     <div>
       <h3>Day Three</h3>
-      <p>
+
+      <h6>
         Weather code: {thirdRecord?.weather?.code}. 
         Weather Description: {thirdRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {thirdRecord?.valid_date} at this time {thirdRecord?.datetime}
@@ -27,7 +28,7 @@ export default function DayThree() {
         of {thirdRecord?.min_temp}. The app max temperature is {thirdRecord?.app_max_temp} and 
         the app min temperature is {thirdRecord?.app_min_temp}.
 
-        The wind CDR is {thirdRecord?.wind_cdr} and the full CDR is {thirdRecord?.wind_cdr_full}. 
+        The wind CDR is {thirdRecord?.wind_cdir} and the full CDR is {thirdRecord?.wind_cdir_full}. 
         The wind direction is currently {thirdRecord?.wind_dir}. The wind speed is currently 
         at {thirdRecord?.wind_spd} with gust speeds expected to be {thirdRecord?.wind_gust_spd}.
 

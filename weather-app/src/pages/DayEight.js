@@ -14,10 +14,10 @@ export default function DayEight() {
     <div>
       <h3>Day Eight</h3>
 
-      <p>
+      <h6>
         Weather code: {eighthRecord?.weather?.code}. 
         Weather Description: {eighthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {eighthRecord?.valid_date} at this time {eighthRecord?.datetime}
@@ -27,7 +27,7 @@ export default function DayEight() {
         of {eighthRecord?.min_temp}. The app max temperature is {eighthRecord?.app_max_temp} and 
         the app min temperature is {eighthRecord?.app_min_temp}.
 
-        The wind CDR is {eighthRecord?.wind_cdr} and the full CDR is {eighthRecord?.wind_cdr_full}. 
+        The wind CDR is {eighthRecord?.wind_cdir} and the full CDR is {eighthRecord?.wind_cdir_full}. 
         The wind direction is currently {eighthRecord?.wind_dir}. The wind speed is currently 
         at {eighthRecord?.wind_spd} with gust speeds expected to be {eighthRecord?.wind_gust_spd}.
 

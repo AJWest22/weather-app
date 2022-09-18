@@ -14,10 +14,10 @@ const DayThirteen = () => {
     <div>
       <h3>Day Thirteen</h3>
 
-      <p>
+      <h6>
         Weather code: {thirteenthRecord?.weather?.code}. 
         Weather Description: {thirteenthRecord?.weather?.description}
-      </p>
+      </h6>
 
       <p>
         For {thirteenthRecord?.valid_date} at this time {thirteenthRecord?.datetime}
@@ -27,7 +27,7 @@ const DayThirteen = () => {
         of {thirteenthRecord?.min_temp}. The app max temperature is {thirteenthRecord?.app_max_temp} and 
         the app min temperature is {thirteenthRecord?.app_min_temp}.
 
-        The wind CDR is {thirteenthRecord?.wind_cdr} and the full CDR is {thirteenthRecord?.wind_cdr_full}. 
+        The wind CDR is {thirteenthRecord?.wind_cdir} and the full CDR is {thirteenthRecord?.wind_cdir_full}. 
         The wind direction is currently {thirteenthRecord?.wind_dir}. The wind speed is currently 
         at {thirteenthRecord?.wind_spd} with gust speeds expected to be {thirteenthRecord?.wind_gust_spd}.
 
