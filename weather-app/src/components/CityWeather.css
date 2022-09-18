@@ -1,3 +1,5 @@
+/* Code for styling the city weather section  */
+
 #city {
     height: 90px;
 }
@@ -29,6 +31,8 @@
     height: 200px;
     margin-right: 20%;
 }
+
+/* code for styling the city weather section on mobile */
 
 @media screen and (max-width: 943px) {
 

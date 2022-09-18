@@ -27,6 +27,7 @@ export default function GroupTwo() {
   return (
     <div>
       <div id="forecast-container-two">
+        {/* Displays an overview of the next 7-11 days forecast */}
         <h2 id="forecast-two">Forecast for Week 2:</h2>
       </div>
       <div className="group-flex">

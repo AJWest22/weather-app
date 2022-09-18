@@ -8,6 +8,8 @@ import DayFive from '../pages/DayFive.js'
 import DaySix from '../pages/DaySix.js'
 import './GroupOne.css'
 
+// Gets the Weather for the next 2-6 days of the forecast
+
 export default function GroupOne() {
     const [filteredRecord, setFilteredRecord] = useState({});
     const [secondFilteredRecord, setSecondFilteredRecord] = useState({});
@@ -32,6 +34,7 @@ export default function GroupOne() {
   
     return (
     <div id="group-one-container">
+      {/* Displays an overview of the next 2-6 days forecast */}
       <div id="forecast-container">
         <h2 id="forecast">Forecast for the Next Five Days:</h2>
       </div>

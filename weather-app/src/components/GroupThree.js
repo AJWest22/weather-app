@@ -27,6 +27,7 @@ export default function GroupThree() {
 
 return (
   <div>
+    {/* Displays an overview of the next 12-16 days forecast */}
     <div id="forecast-container-three">
       <h2 id="forecast-three">Forecast for Week 3:</h2>
     </div>

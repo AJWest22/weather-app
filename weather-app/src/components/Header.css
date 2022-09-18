@@ -1,3 +1,4 @@
+/* Code for styling the header section */
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
@@ -20,6 +21,8 @@ img {
     justify-content: center;
 
 }
+
+/* Code for styling the header section on mobile */
 
 @media screen and (max-width: 943px) {
 

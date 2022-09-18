@@ -2,6 +2,8 @@ import React from 'react'
 import './Header.css'
 import icon from '../icons/c02d.png'
 
+/* Code for displaying the Header of the App */
+
 export default function Header() {
   return (
     <div id="header">
