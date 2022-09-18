@@ -16,7 +16,7 @@
 
 5. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
-    2.    [Libraries](#libraries)
+    2. [Libraries](#libraries)
     3. [Files Made](#files-made)
 
 6. [Design](#design)
@@ -183,6 +183,8 @@ The following is a brief overview of some of the known bugs on this site, and ar
 - Max DHI has been imported but is set to null. As expected it turns out nothing, but I have imported it anyway, as it was included and I wasn't sure what to include or not, so imported all of it. 
 
 - JSON files sometimes needs to be re imported in the code. I am not sure why this is. If a forecast page doesn't load first time, re import the JSON file and it should load. Iam not sure this is, the file path is correct and is unchanged from the others and occurs across all the forecast individual pages.
+
+- The icons are not perfectly centered at the momentin their weather pages. At some point I would like to work on the design of this and center them beneath the text.
 
 
 
