@@ -36,31 +36,35 @@ return (
         <p className="group-text">{twelfthFilteredRecord.wind_dir}</p>
         <p className="group-text">{twelfthFilteredRecord.low_temp}</p>
         <p className="group-text">{twelfthFilteredRecord.max_temp}</p>
-        <Link to="/pages/day">Read More</Link>
+        <Link to="/pages/daytwelve">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 13</h5>
         <p className="group-text">{thirteenthFilteredRecord.moonrise_ts}</p>
         <p className="group-text">{thirteenthFilteredRecord.wind_cdir}</p>
         <p className="group-text">{thirteenthFilteredRecord.high_temp}</p>
+        <Link to="/pages/daythirteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 14</h5>
         <p className="group-text">{fourteenthFilteredRecord.wind_dir}</p>
         <p className="group-text">{fourteenthFilteredRecord.clouds_hi}</p>
         <p className="group-text">{fourteenthFilteredRecord.precip}</p>
+        <Link to="/pages/dayfourteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 15</h5>
         <p className="group-text">{fifteenthFilteredRecord.high_temp}</p>
         <p className="group-text">{fifteenthFilteredRecord.clouds}</p>
         <p className="group-text">{fifteenthFilteredRecord.app_min_temp}</p>
+        <Link to="/pages/dayfifteen">Read More</Link>
       </div>
       <div className="group-three">
         <h5>Day 16</h5>
         <p className="group-text">{sixteenthFilteredRecord.low_temp}</p>
         <p className="group-text">{sixteenthFilteredRecord.max_temp}</p>
         <p className="group-text">{sixteenthFilteredRecord.temp}</p>
+        <Link to="/pages/daysixteen">Read More</Link>
       </div>
     </div>
   </div>

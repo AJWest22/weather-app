@@ -4,11 +4,11 @@ import info from '../weather-data.json'
 import './GroupTwo.css'
 
 export default function GroupTwo() {
-    const [seventhFilteredRecord, setSixthFilteredRecord] = useState({});
-    const [eighthFilteredRecord, setSeventhFilteredRecord] = useState({});
-    const [ninthFilteredRecord, setEighthFilteredRecord] = useState({});
-    const [tenthFilteredRecord, setNinthFilteredRecord] = useState({});
-    const [eleventhFilteredRecord, setTenthFilteredRecord] = useState({});
+    const [seventhFilteredRecord, setSeventhFilteredRecord] = useState({});
+    const [eighthFilteredRecord, setEighthFilteredRecord] = useState({});
+    const [ninthFilteredRecord, setNinthFilteredRecord] = useState({});
+    const [tenthFilteredRecord, setTenthFilteredRecord] = useState({});
+    const [eleventhFilteredRecord, setEleventhFilteredRecord] = useState({});
 
     useEffect(() => {
         const seventhRecord = info.data.filter((it) => it.rh === 74);
@@ -16,11 +16,11 @@ export default function GroupTwo() {
         const ninthRecord= info.data.filter((it) => it.wind_cdir === "W");
         const tenthRecord = info.data.filter((it) => it.wind_cdir === "WSW");
         const eleventhRecord = info.data.filter((it) => it.wind_cdir === "SW");
-        setSixthFilteredRecord(seventhRecord[0]);
-        setSeventhFilteredRecord(eighthRecord[0]);
-        setEighthFilteredRecord(ninthRecord[0]);
-        setNinthFilteredRecord(tenthRecord[0]);
-        setTenthFilteredRecord(eleventhRecord[0]);
+        setSeventhFilteredRecord(seventhRecord[0]);
+        setEighthFilteredRecord(eighthRecord[0]);
+        setNinthFilteredRecord(ninthRecord[0]);
+        setTenthFilteredRecord(tenthRecord[0]);
+        setEleventhFilteredRecord(eleventhRecord[0]);
   
     }, []);
 
