@@ -14,9 +14,11 @@ export default function DayTwo() {
   return (
     <div>
       <h3>Tomorrow's Forecast</h3>
-      {detailedRecord.weather?.icon}
-      {detailedRecord.weather?.code}
-      {detailedRecord.weather?.description}
+
+      <p>
+        Weather code: {detailedRecord.weather?.code}. 
+        Weather Description: {detailedRecord.weather?.description}
+      </p>
 
       <p>
         For {detailedRecord.valid_date} at this time {detailedRecord.datetime}
