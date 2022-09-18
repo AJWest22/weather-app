@@ -16,7 +16,8 @@
 
 5. [Code Used](#code-used)
     1. [Frameworks](#frameworks)
-    2. [Files Made](#files-made)
+    2.    [Libraries](#libraries)
+    3. [Files Made](#files-made)
 
 6. [Design](#design)
     1. [Typography](#typography)
