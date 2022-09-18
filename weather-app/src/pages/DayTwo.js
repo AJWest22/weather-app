@@ -3,6 +3,7 @@ import info from '../weather-data.json'
 import'../components/GroupOne.js'
 import icon from '../icons/c03d.png'
 
+// Gets the weather for day two from the JSON file
 
 export default function DayTwo() {
   const [detailedRecord, setDetailedRecord] = useState({});
@@ -13,7 +14,7 @@ export default function DayTwo() {
   }, []);
   return (
     <div>
-
+      {/* Displays a detailed look at day 2's forecast */}
       <h3>Tomorrow's Forecast</h3>
 
       <h6>

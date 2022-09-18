@@ -22,7 +22,7 @@ import DayFifteen from './pages/DayFifteen';
 import DaySixteen from './pages/DaySixteen';
 import Data from './Data';
 
-
+// Allows users to navigate to the forecast pages
 function App() {
   return (
     <HashRouter>

@@ -1,3 +1,5 @@
+/* Styles the site's global features */
+
 .App {
   text-align: center;
 }
@@ -6,6 +8,8 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+/* Styles the site's global features on mobile */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

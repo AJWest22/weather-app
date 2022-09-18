@@ -5,6 +5,8 @@ import GroupOne from './components/GroupOne'
 import GroupTwo from './components/GroupTwo' 
 import GroupThree from './components/GroupThree'
 
+// Displays all the componets on the page
+
 const Data = () => {
   return (
     <div>

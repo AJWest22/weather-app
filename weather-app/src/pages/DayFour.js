@@ -3,6 +3,8 @@ import info from '../weather-data.json'
 import icon from '../icons/c03d.png'
 import'../components/GroupOne.js'
 
+// Gets the weather for day 4 from the JSON
+
 export default function DayFour() {
   const [fourthRecord, setFourthRecord] = useState({});
 
@@ -12,6 +14,7 @@ export default function DayFour() {
   }, []);
   return (
     <div>
+      {/* Displays a detailed look at day 4's forecast */}
       <h3>Day Four</h3>
 
       <h6>

@@ -3,6 +3,8 @@ import info from '../weather-data.json'
 import icon from '../icons/c03d.png'
 import'../components/GroupOne.js'
 
+// Gets the weather for day 6 from the JSON
+
 export default function DaySix() {
   const [sixthRecord, setSixthRecord] = useState({});
 
@@ -12,6 +14,7 @@ export default function DaySix() {
   }, []);
   return (
     <div>
+      {/* Displays a detailed look at day 6's forecast */}
       <h3>Day Six</h3>
 
       <h6>

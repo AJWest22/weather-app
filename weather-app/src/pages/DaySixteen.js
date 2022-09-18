@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
 import icon from '../icons/c03d.png'
 
+// Gets the weather for day 16 from the JSON
+
 export default function DaySixteen() {
   const [sixteenthRecord, setSixteenthRecord] = useState({});
 
@@ -11,6 +13,7 @@ export default function DaySixteen() {
   }, []);
   return (
     <div>
+      {/* Displays a detailed look at day 16's forecast */}
       <h3>Day Sixteen</h3>
 
       <h6>
