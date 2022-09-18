@@ -96,6 +96,9 @@ During development there were several bugs that were made that are worth mention
 
 3. When making the CSS there was an overflow bug in the Group One heading, "Forecast for the Next Five Days". There is still a slight overflow, however it was significantly reduced by removing the margin-left on mobile. 
 
+4. I had a few accidents organising the JSON file, I mixed up the days so some were being called twice, and also mixed up the variable names. Hence why there are some variable changes as evidenced in the commits of this project. 
+
+
 ### CSS Development
 
 CSS is used to style the site, due to the project being asked the value functionality over a ploished look, basic CSS has been used. The colours used are from this [palete](https://colorhunt.co/palette/5800ff0096ff00d7ff72ffff). I chose blue as a main theme, due to one of the colours being #0096FF, which I figured looked like a sky blue, without being too bright and overwhelming. 
@@ -116,7 +119,22 @@ The site is build using:
 
 - *React* This site was made almost entirely in React (minus the colours which were applied using CSS.) React Hooks were used when filtering the site info to setStates and useEffects. React Router DOM was used for the site's navigation menu.
 
+### Libraries
+
+- *React Router* is used to provide the navigation of this site. The component Link, the HashRouter, Routes, and Route, are all used in this app's functionality.
+
 ### Files Made
+
+There have been 3 folders created. 
+
+- *Components* which holds the components needed for this app. They can all be seen on the first page of this app. 
+
+- *Icons* Icons holds all the icons for this app. They are downloaded from the package sent out with this challenge.
+
+- *Pages* Pages holds all the files/pages that are user is taken to upon clicking read more. 
+
+In total there have been 88 files made for this project, this doesn't include the standard files already included in React. 
+
 
 ## **Design**
 
@@ -154,6 +172,9 @@ The following is a brief overview of some of the known bugs on this site, and ar
 
 - The shade of blue from the present day weather section drops down a bit to far. I think this is due to the 50vh setting, it is something I am working to correct. 
 
+- I'm not sure why this is, but I had to use chaining in order to get access to the JSON files. Examples of this are in the City Weather and the forecast pages. I'm not sure why this is, and maybe nothing, but I'm recoridng it here in case it is a bug and for future reference. Chaining is needed to get weather objects, it then marks it as undefined but doesn't question it so it loads, this is used in place of the standard dot notation because otherwise the objects are marked as undefined. I'm not sure this is, but Chaining sorted out this bug.
+
+- Group One has to have the Days in that group imported to work, as well as the Router components. They are greyed out which means they aren't being used, but if I remove them the app ceases to function so I have had to leave them in. This is in contrast to the other groups.
 
 ## **Features to be Added**
 

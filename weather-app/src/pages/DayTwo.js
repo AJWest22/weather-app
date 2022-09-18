@@ -36,7 +36,7 @@ export default function DayTwo() {
 
             Precipitation is {detailedRecord?.precip}. Snow is currently at {detailedRecord?.snow} and 
             snow depth {detailedRecord?.snow_depth}. The clouds are {detailedRecord?.clouds}. The hi clouds 
-            are currently at {detailedRecord?.clouds_hi} and the mid clouds are {twelfthRecord?.clouds_mid} and 
+            are currently at {detailedRecord?.clouds_hi} and the mid clouds are {detailedRecord?.clouds_mid} and 
             low clouds are at {detailedRecord?.clouds_low}. This means vis is currently {detailedRecord?.vis}.
 
             Sunrise is set for {detailedRecord?.sunrise_ts} and sunset for {detailedRecord?.sunset_ts}. 

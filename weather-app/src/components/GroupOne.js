@@ -7,7 +7,6 @@ import DayFour from '../pages/DayFour.js'
 import DayFive from '../pages/DayFive.js'
 import DaySix from '../pages/DaySix.js'
 import './GroupOne.css'
-import GroupThree from './GroupThree';
 
 export default function GroupOne() {
     const [filteredRecord, setFilteredRecord] = useState({});

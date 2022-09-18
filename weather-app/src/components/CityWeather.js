@@ -3,7 +3,7 @@ import info from '../weather-data.json'
 import './CityWeather.css'
 import icon from '../icons/c03d.png'
 
-// Gets the weather for current day filters through them
+// Gets the weather for current day and filters through them
 export default function CityWeather() {
   const [filteredRecord, setFilteredRecord] = useState({});
 
@@ -16,7 +16,7 @@ export default function CityWeather() {
 
   return (
     <div>
-        {/* Optional Chaining is needed to get weather objects, marks it as undefined but doesn't question it so it loads. */}
+        {/* Displays the city of York's weather for today. */}
       <div id="city">
         <h2 id="city-name">Weather for {info.city_name}</h2>
         <h4 id="date">Date: {filteredRecord.valid_date}. Weather: {filteredRecord?.weather?.description }</h4>
