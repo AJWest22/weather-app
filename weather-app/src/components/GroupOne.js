@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {Routes, Route, HashRouter, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import info from '../weather-data.json'
 import DayTwo from '../pages/DayTwo.js'
 import DayThree from '../pages/DayThree.js'
