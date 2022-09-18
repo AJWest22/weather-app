@@ -46,7 +46,8 @@ export default function DayNine() {
         Other information: rh is currently {ninthRecord?.rh}. The pres is {ninthRecord?.pres}. 
         The ozone is currently at {ninthRecord?.ozone}. The ts is {ninthRecord?.ts}
         and the pop is {ninthRecord?.pop}. The slp is at {ninthRecord?.slp}. The dewpt 
-        is {ninthRecord?.dewpt} UV radiation is expected to be {ninthRecord?.uv}.
+        is {ninthRecord?.dewpt} UV radiation is expected to be {ninthRecord?.uv}. The 
+        Max DHI is {ninthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

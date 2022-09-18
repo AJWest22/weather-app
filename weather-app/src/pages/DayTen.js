@@ -46,7 +46,8 @@ export default function DayTen() {
         Other information: rh is currently {tenthRecord?.rh}. The pres is {tenthRecord?.pres}. 
         The ozone is currently at {tenthRecord?.ozone}. The ts is {tenthRecord?.ts}
         and the pop is {tenthRecord?.pop}. The slp is at {tenthRecord?.slp}. The dewpt 
-        is {tenthRecord?.dewpt} UV radiation is expected to be {tenthRecord?.uv}.
+        is {tenthRecord?.dewpt} UV radiation is expected to be {tenthRecord?.uv}. The 
+        Max DHI is {tenthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

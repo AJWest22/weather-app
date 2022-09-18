@@ -46,7 +46,8 @@ export default function DaySix() {
         Other information: rh is currently {sixthRecord?.rh}. The pres is {sixthRecord?.pres}. 
         The ozone is currently at {sixthRecord?.ozone}. The ts is {sixthRecord?.ts}
         and the pop is {sixthRecord?.pop}. The slp is at {sixthRecord?.slp}. The dewpt 
-        is {sixthRecord?.dewpt} UV radiation is expected to be {sixthRecord?.uv}.
+        is {sixthRecord?.dewpt} UV radiation is expected to be {sixthRecord?.uv}. The 
+        Max DHI is {sixthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

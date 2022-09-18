@@ -46,7 +46,8 @@ export default function DayFourteen() {
         Other information: rh is currently {fourteenthRecord?.rh}. The pres is {fourteenthRecord?.pres}. 
         The ozone is currently at {fourteenthRecord?.ozone}. The ts is {fourteenthRecord?.ts}
         and the pop is {fourteenthRecord?.pop}. The slp is at {fourteenthRecord?.slp}. The dewpt 
-        is {fourteenthRecord?.dewpt} UV radiation is expected to be {fourteenthRecord?.uv}.
+        is {fourteenthRecord?.dewpt} UV radiation is expected to be {fourteenthRecord?.uv}. The 
+        Max DHI is {fourteenthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

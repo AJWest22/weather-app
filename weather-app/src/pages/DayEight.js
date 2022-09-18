@@ -46,7 +46,8 @@ export default function DayEight() {
         Other information: rh is currently {eighthRecord?.rh}. The pres is {eighthRecord?.pres}. 
         The ozone is currently at {eighthRecord?.ozone}. The ts is {eighthRecord?.ts}
         and the pop is {eighthRecord?.pop}. The slp is at {eighthRecord?.slp}. The dewpt 
-        is {eighthRecord?.dewpt} UV radiation is expected to be {eighthRecord?.uv}.
+        is {eighthRecord?.dewpt} UV radiation is expected to be {eighthRecord?.uv}. The 
+        Max DHI is {eighthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

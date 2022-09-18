@@ -46,7 +46,8 @@ const DayTwelve = () => {
         Other information: rh is currently {twelfthRecord?.rh}. The pres is {twelfthRecord?.pres}. 
         The ozone is currently at {twelfthRecord?.ozone}. The ts is {twelfthRecord?.ts}
         and the pop is {twelfthRecord?.pop}. The slp is at {twelfthRecord?.slp}. The dewpt 
-        is {twelfthRecord?.dewpt} UV radiation is expected to be {twelfthRecord?.uv}.
+        is {twelfthRecord?.dewpt} UV radiation is expected to be {twelfthRecord?.uv}. The 
+        Max DHI is {twelfthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

@@ -49,7 +49,8 @@ export default function DayTwo() {
             Other information: rh is currently {detailedRecord?.rh}. The pres is {detailedRecord?.pres}. 
             The ozone is currently at {detailedRecord?.ozone}. The ts is {detailedRecord?.ts}
             and the pop is {detailedRecord?.pop}. The slp is at {detailedRecord?.slp}. The dewpt 
-            is {detailedRecord?.dewpt} UV radiation is expected to be {detailedRecord?.uv}.
+            is {detailedRecord?.dewpt} UV radiation is expected to be {detailedRecord?.uv}. The 
+            Max DHI is {detailedRecord?.max_dhi}.
         </p>
         <img src={icon} className="icon"></img>
       </div>

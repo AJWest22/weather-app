@@ -46,7 +46,8 @@ export default function DayEleven() {
         Other information: rh is currently {eleventhRecord?.rh}. The pres is {eleventhRecord?.pres}. 
         The ozone is currently at {eleventhRecord?.ozone}. The ts is {eleventhRecord?.ts}
         and the pop is {eleventhRecord?.pop}. The slp is at {eleventhRecord?.slp}. The dewpt 
-        is {eleventhRecord?.dewpt} UV radiation is expected to be {eleventhRecord?.uv}.
+        is {eleventhRecord?.dewpt} UV radiation is expected to be {eleventhRecord?.uv}. The 
+        Max DHI is {eleventhRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

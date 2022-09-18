@@ -46,7 +46,8 @@ export default function DayFifteen() {
         Other information: rh is currently {fifteenthRecord?.rh}. The pres is {fifteenthRecord?.pres}. 
         The ozone is currently at {fifteenthRecord?.ozone}. The ts is {fifteenthRecord?.ts}
         and the pop is {fifteenthRecord?.pop}. The slp is at {fifteenthRecord?.slp}. The dewpt 
-        is {fifteenthRecord?.dewpt} UV radiation is expected to be {fifteenthRecord?.uv}.
+        is {fifteenthRecord?.dewpt} UV radiation is expected to be {fifteenthRecord?.uv}. The 
+        Max DHI is {fifteenthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

@@ -46,7 +46,8 @@ export default function DaySeven() {
         Other information: rh is currently {seventhRecord?.rh}. The pres is {seventhRecord?.pres}. 
         The ozone is currently at {seventhRecord?.ozone}. The ts is {seventhRecord?.ts}
         and the pop is {seventhRecord?.pop}. The slp is at {seventhRecord?.slp}. The dewpt 
-        is {seventhRecord?.dewpt} UV radiation is expected to be {seventhRecord?.uv}.
+        is {seventhRecord?.dewpt} UV radiation is expected to be {seventhRecord?.uv}. The 
+        Max DHI is {seventhRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

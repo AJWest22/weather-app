@@ -46,7 +46,8 @@ const DayThirteen = () => {
         Other information: rh is currently {thirteenthRecord?.rh}. The pres is {thirteenthRecord?.pres}. 
         The ozone is currently at {thirteenthRecord?.ozone}. The ts is {thirteenthRecord?.ts}
         and the pop is {thirteenthRecord?.pop}. The slp is at {thirteenthRecord?.slp}. The dewpt 
-        is {thirteenthRecord?.dewpt} UV radiation is expected to be {thirteenthRecord?.uv}.
+        is {thirteenthRecord?.dewpt} UV radiation is expected to be {thirteenthRecord?.uv}. The 
+        Max DHI is {thirteenthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

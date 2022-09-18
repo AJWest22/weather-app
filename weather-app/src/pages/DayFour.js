@@ -46,7 +46,8 @@ export default function DayFour() {
         Other information: rh is currently {fourthRecord?.rh}. The pres is {fourthRecord?.pres}. 
         The ozone is currently at {fourthRecord?.ozone}. The ts is {fourthRecord?.ts}
         and the pop is {fourthRecord?.pop}. The slp is at {fourthRecord?.slp}. The dewpt 
-        is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}.
+        is {fourthRecord?.dewpt} UV radiation is expected to be {fourthRecord?.uv}. The 
+        Max DHI is {fourthRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>

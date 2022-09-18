@@ -99,6 +99,8 @@ During development there were several bugs that were made that are worth mention
 
 4. I had a few accidents organising the JSON file, I mixed up the days so some were being called twice, and also mixed up the variable names. Hence why there are some variable changes as evidenced in the commits of this project. 
 
+5. When calling objects from the JSON file often they came up as undefined, this was normally due to typos, however with the objects in the weather aray such as icon/code/description, the only way to get them to display was through chaining them. I have discussed this in more detail in the bugs seciton of this README.
+
 
 ### CSS Development
 
@@ -106,7 +108,11 @@ CSS is used to style the site, due to the project being asked the value function
 
 ### React Development 
 
-The React development of this site was a fun, and interesting challenge. I had worked a bit in React before, but not to this scale, and loved learning more of this framework. Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site.
+The React development of this site was a fun, and interesting challenge. I had worked a bit in React before, but not to this scale, and loved learning more of this framework. Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site. 
+
+The variables used in this app I have tried to keep similar to what is happening. For example the records in the forecast pages are the same as the day that has been clicked. Example Day 12 being "twelfth record". The exception of this is DayTwo which is set to detailedRecord, as this is the first that is being called. 
+
+The variables in the components app run from 1 to 15. This is because there may be 16 days in the array, but 1 is already used (City Weather for today's weather), so the count starts at the second day, thus the first variable is set to filteredRecord, as it is the first record being filtered, despite being the second day overall in the array. I could have used secondFilteredRecord, which would have made it equivalent to it being the second day in the array, (this would probably make it easier to read and something I will probably change in future to increase readability) however I stuck with it at filteredRecord as it is the first filtered record of those 15 days.
 
 
 ## **Code Used**
@@ -154,9 +160,6 @@ The colours used for this site come from this [site](https://colorhunt.co/) and 
 The images on this site are actually icons downloaded from the file sent across with the technical. I implemented them where appropriate, and also in the header as a way of giving off a relaxed feel while creating a decent aesthetic.
 
 
-## **Code Features**
-
-
 
 ## **JSON Files**
 
@@ -176,6 +179,12 @@ The following is a brief overview of some of the known bugs on this site, and ar
 - I'm not sure why this is, but I had to use chaining in order to get access to the JSON files. Examples of this are in the City Weather and the forecast pages. I'm not sure why this is, and maybe nothing, but I'm recoridng it here in case it is a bug and for future reference. Chaining is needed to get weather objects, it then marks it as undefined but doesn't question it so it loads, this is used in place of the standard dot notation because otherwise the objects are marked as undefined. I'm not sure this is, but Chaining sorted out this bug.
 
 - Group One has to have the Days in that group imported to work, as well as the Router components. They are greyed out which means they aren't being used, but if I remove them the app ceases to function so I have had to leave them in. This is in contrast to the other groups.
+
+- Max DHI has been imported but is set to null. As expected it turns out nothing, but I have imported it anyway, as it was included and I wasn't sure what to include or not, so imported all of it. 
+
+- JSON files sometimes needs to be re imported in the code. I am not sure why this is. If a forecast page doesn't load first time, re import the JSON file and it should load. Iam not sure this is, the file path is correct and is unchanged from the others and occurs across all the forecast individual pages.
+
+
 
 ## **Features to be Added**
 

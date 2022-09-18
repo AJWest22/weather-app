@@ -47,7 +47,8 @@ export default function DayThree() {
         Other information: rh is currently {thirdRecord?.rh}. The pres is {thirdRecord?.pres}. 
         The ozone is currently at {thirdRecord?.ozone}. The ts is {thirdRecord?.ts}
         and the pop is {thirdRecord?.pop}. The slp is at {thirdRecord?.slp}. The dewpt 
-        is {thirdRecord?.dewpt} UV radiation is expected to be {thirdRecord?.uv}.
+        is {thirdRecord?.dewpt} UV radiation is expected to be {thirdRecord?.uv}. The 
+        Max DHI is {thirdRecord?.max_dhi}.
       </p>
 
       <img src={icon} className="icon"></img>
