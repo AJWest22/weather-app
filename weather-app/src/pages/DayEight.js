@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import info from '../weather-data.json'
 
 export default function DayEight() {
