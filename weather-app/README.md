@@ -171,7 +171,9 @@ The data presented in this app comes from the JSON file sent with the technical 
 
 The following is a brief overview of some of the known bugs on this site, and are things I am actively researching on how to amend ASAP.
 
-- The image of the sun and clouds in the "Todays Weather" section of the site isn't aligned with the text. They should be together, and I'm not sure why that is. I tried to position it with various margin and paddings but it didn't budge. I'm not sure why this is.
+- The image of the sun and clouds in the "Todays Weather" section of the site isn't aligned with the text. They should be together, and I'm not sure why that is. I tried to position it with various margin and paddings but it didn't budge. I'm not sure why this is. 
+
+- The image and text aren't aligned in the header, I have tried to position them using: width, margin, padding and sizing the icon. 
 
 - When resizing the app on mobile, there is some slight overflow, which I believe comes from the "Next 5 Days" header. I removed the margin-left on mobile and that helped it considerably, however it is still pushing things over slghtly. i think it might be due to the padding.
 
