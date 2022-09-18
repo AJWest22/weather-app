@@ -1,4 +1,5 @@
 import React from 'react'
+import info from '../weather-data.json'
 import'../components/GroupOne.js'
 
 export default function DayFive() {

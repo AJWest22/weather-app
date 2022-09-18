@@ -1,4 +1,5 @@
 import React from 'react'
+import info from '../weather-data.json'
 
 export default function DayTen() {
   const [tenthRecord, setTenthRecord] = useState({});

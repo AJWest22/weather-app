@@ -1,4 +1,5 @@
 import React from 'react'
+import info from '../weather-data.json'
 
 const DayThirteen = () => {
   const [thirteenthRecord, setThirteenthRecord] = useState({});
