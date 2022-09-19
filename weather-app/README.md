@@ -171,24 +171,17 @@ The data presented in this app comes from the JSON file sent with the technical 
 
 The following is a brief overview of some of the known bugs on this site, and are things I am actively researching on how to amend ASAP.
 
-- The image of the sun and clouds in the "Todays Weather" section of the site isn't aligned with the text. They should be together, and I'm not sure why that is. I tried to position it with various margin and paddings but it didn't budge. I'm not sure why this is. 
-
-- The image and text aren't aligned in the header, I have tried to position them using: width, margin, padding and sizing the icon. 
-
 - When resizing the app on mobile, there is some slight overflow, which I believe comes from the "Next 5 Days" header. I removed the margin-left on mobile and that helped it considerably, however it is still pushing things over slghtly. i think it might be due to the padding.
 
-- The shade of blue from the present day weather section drops down a bit to far. I think this is due to the 50vh setting, it is something I am working to correct. 
+- The shade of blue from the present day weather section drops down a bit to far. I'm not sure why this is, though it is something I am working to correct. 
 
 - I'm not sure why this is, but I had to use chaining in order to get access to the JSON files. Examples of this are in the City Weather and the forecast pages. I'm not sure why this is, and maybe nothing, but I'm recoridng it here in case it is a bug and for future reference. Chaining is needed to get weather objects, it then marks it as undefined but doesn't question it so it loads, this is used in place of the standard dot notation because otherwise the objects are marked as undefined. I'm not sure this is, but Chaining sorted out this bug.
+
+- JSON files sometimes needs to be re imported in the code. I am not sure why this is. If a forecast page doesn't load first time, re import the JSON file and it should load. Iam not sure this is, the file path is correct and is unchanged from the others and occurs across all the forecast individual pages.
 
 - Group One has to have the Days in that group imported to work, as well as the Router components. They are greyed out which means they aren't being used, but if I remove them the app ceases to function so I have had to leave them in. This is in contrast to the other groups.
 
 - Max DHI has been imported but is set to null. As expected it turns out nothing, but I have imported it anyway, as it was included and I wasn't sure what to include or not, so imported all of it. 
-
-- JSON files sometimes needs to be re imported in the code. I am not sure why this is. If a forecast page doesn't load first time, re import the JSON file and it should load. Iam not sure this is, the file path is correct and is unchanged from the others and occurs across all the forecast individual pages.
-
-- The icons are not perfectly centered at the momentin their weather pages. At some point I would like to work on the design of this and center them beneath the text.
-
 
 
 ## **Features to be Added**
