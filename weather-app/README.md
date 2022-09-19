@@ -79,7 +79,7 @@
 
 - The site is made using the Weather.io API.
 
-- The icons used were sent across with the technical challenge and downlaoded where appropriate. 
+- The icons used were sent across with the technical challenge and downlaoded and placed where required. 
 
 ### Target Audience
 
