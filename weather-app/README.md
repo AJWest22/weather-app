@@ -171,7 +171,7 @@ The data presented in this app comes from the JSON file sent with the technical 
 
 The following is a brief overview of some of the known bugs on this site, and are things I am actively researching on how to amend ASAP.
 
-- When resizing the app on mobile, there is some slight overflow, which I believe comes from the "Next 5 Days" header. I removed the margin-left on mobile and that helped it considerably, however it is still pushing things over slghtly. i think it might be due to the padding.
+- When viewing the app on mobile there some body color that is still visible along the sides. I have set the body width and header/group widths but can't get it go away completely. 
 
 - The shade of blue from the present day weather section drops down a bit to far. I'm not sure why this is, though it is something I am working to correct. 
 

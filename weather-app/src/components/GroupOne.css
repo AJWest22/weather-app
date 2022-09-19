@@ -49,17 +49,23 @@ h5 {
     }
 
     .groups {
-        width: 95%;
+        width: 96%;
         height: 250px;
         border: 8px, solid, #5800FF;
         padding-bottom: 10px;
     }
 
+    #group-one-container {
+        width: 100%;
+    }
+
     #forecast-container {
         margin-left: 0%;
+        width: 100%;
     }
 
     #forecast {
         margin-left: 0%;
+        width: 100%;
     }
 }

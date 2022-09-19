@@ -92,6 +92,10 @@ p {
 
 @media screen and (max-width: 943px) {
 
+  body {
+    width: 99%;
+  }
+
   h3 {
     color: white;
     margin-top: 15%;
