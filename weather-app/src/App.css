@@ -55,6 +55,7 @@ h2 {
 }
 
 h3 {
+  font-family: 'Times New Roman', Times, serif;
   color: white;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -70,6 +71,9 @@ h4 {
 h6 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.8em;
 }
 
 p {
@@ -84,7 +88,6 @@ p {
 .icon {
   height: 200px;
   width: 200px;
-  margin-right: 7%;
 }
 
 @media screen and (max-width: 943px) {
@@ -98,15 +101,16 @@ p {
 
   h6 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 24px;
-    margin-top: 15%;
+    font-size: 22px;
     margin-left: 5%;
     margin-right: 5%;
+    line-height: 1.6em;
   }
 
   .icon {
-    margin-right: 0%;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 10px;
+    height: 150px;
+    width: 150px;
   }
 }

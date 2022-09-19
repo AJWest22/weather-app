@@ -16,14 +16,10 @@ export default function DayTwo() {
     <div>
       {/* Displays a detailed look at day 2's forecast */}
       <h3>Tomorrow's Forecast</h3>
-
       <h6>
-        Location: {info.city_name}, Longitude: {info.lon}, Timezone: {info.timezone}, Latitude: {info.lat},
-        Country Code: {info.country_code}, State Code: {info.state_code}.
-        Weather code: {detailedRecord?.weather?.code}. 
-        Weather Description: {detailedRecord?.weather?.description}
+        Location: {info.city_name}. Longitude: {info.lon} Latitude: {info.lat}. Timezone: {info.timezone}. Country Code: {info.country_code}, 
+        State Code: {info.state_code}. Weather code: {detailedRecord?.weather?.code} Weather Description: {detailedRecord?.weather?.description}
       </h6>
-
       <div>
           <p>
             For {detailedRecord?.datetime} at this time {detailedRecord?.datetime}
