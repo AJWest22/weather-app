@@ -64,7 +64,7 @@
 
 ### User Stories
   
-  The following is some of the thought processes I had in mind when making the site when considernig a user's perspective and what they want: 
+  The following is some of the thought processes I had in mind when making the site when considering a user's perspective and what they want: 
 
 - As a user I want a site that is easy to use/navigate
 
@@ -80,6 +80,14 @@
 - The site is made using the Weather.io API.
 
 - The icons used were sent across with the technical challenge and downlaoded and placed where required. 
+
+- To start the app in the GitPod terminal run the code: 
+
+        **cd weather-app**
+
+    and then run the code:
+
+        **npm start**
 
 ### Target Audience
 
@@ -98,11 +106,9 @@ During development there were several bugs that were made that are worth mention
 
 2. When filtering GroupThree there was an issue with the variables not locading and saying objects were undefined. This was fixed by rechecking the spelling of the variables/objects, and copying and pasting in the right values, and spellings.
 
-3. When making the CSS there was an overflow bug in the Group One heading, "Forecast for the Next Five Days". There is still a slight overflow, however it was significantly reduced by removing the margin-left on mobile. 
+3. I had a few accidents organising the JSON file, I mixed up the days so some were being called twice, and also mixed up the variable names. Hence why there are some variable changes as evidenced in the commits of this project. 
 
-4. I had a few accidents organising the JSON file, I mixed up the days so some were being called twice, and also mixed up the variable names. Hence why there are some variable changes as evidenced in the commits of this project. 
-
-5. When calling objects from the JSON file often they came up as undefined, this was normally due to typos, however with the objects in the weather aray such as icon/code/description, the only way to get them to display was through chaining them. I have discussed this in more detail in the bugs seciton of this README.
+4. When calling objects from the JSON file often they came up as undefined, this was normally due to typos, however with the objects in the weather aray such as icon/code/description, the only way to get them to display was through chaining them. I have discussed this in more detail in the bugs seciton of this README.
 
 
 ### CSS Development
