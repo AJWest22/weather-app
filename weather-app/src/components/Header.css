@@ -8,7 +8,7 @@ h1 {
     margin-left: 10%;
 }
 
-img {
+#header-icon {
     margin-top: 100px;
     margin-left: 60px;
     text-shadow: 2px 2px black;
@@ -21,7 +21,6 @@ img {
     justify-content: center;
 
 }
-
 /* Code for styling the header section on mobile */
 
 @media screen and (max-width: 943px) {
@@ -32,8 +31,8 @@ img {
     }
 
     h1 {
-        font-size: 40px;
         margin-top: 1%;
+        font-size: 40px;
         margin-left: 20%;
     }
 

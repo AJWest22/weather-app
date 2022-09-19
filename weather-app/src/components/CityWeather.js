@@ -28,7 +28,7 @@ export default function CityWeather() {
            evening, with a min temperature of {filteredRecord.min_temp} degrees expected to be seen around sunrise. All 
            temperatures are recorded in Celsius.
         </p>
-        <img id="width" src={icon} alt="todays weather"></img>
+        <img id="city-icon" src={icon} alt="todays weather"></img>
       </div>
     </div>
   )
