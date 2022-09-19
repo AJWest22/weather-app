@@ -33,13 +33,15 @@
 10. [Features to be Added](#features-to-be-added)
 
 11. [Credits](#credits)
-     1. [Icons](#icons]
+     1. [Icons](#icons)
      2. [React Framework](#react-framework)
      3. [React Router](#react-router)
 
 
 
 ## **Overview** 
+
+- This app has been created using GitPod and code has been pushed to GitHub
 
 - This app was made as the technical challenge for Twelve Oaks Software Development. 
 
