@@ -43,13 +43,9 @@
 
 - This app has been created using GitPod and code has been pushed to GitHub
 
-- This app was made as the technical challenge for Twelve Oaks Software Development. 
-
 - The App is a website that allows users to view the weather for York for 16 days.
 
 - The site's source code can be viewed on GitHub
-
-- The site's title is currently "React Weather App"
 
 
 ## **Site Goals**
@@ -79,8 +75,6 @@
 
 - The site is made using the Weather.io API.
 
-- The icons used were sent across with the technical challenge and downlaoded and placed where required. 
-
 - To start the app in the GitPod terminal run the code: 
 
         **cd weather-app**
@@ -88,6 +82,8 @@
     and then run the code:
 
         **npm start**
+    
+    If an error saying react-scripts comes up, type: **npm install** into the terminal then run npm start again
 
 ### Target Audience
 
@@ -104,11 +100,9 @@ During development there were several bugs that were made that are worth mention
 
 1. When trying to access the weather icon, description and code, when filtering the code, it couldn't be used using dot notation, like the others. I had to access it using chaining, this is why there are question marks around those objects. 
 
-2. When filtering GroupThree there was an issue with the variables not locading and saying objects were undefined. This was fixed by rechecking the spelling of the variables/objects, and copying and pasting in the right values, and spellings.
+2. When filtering GroupThree there was an issue with the variables not locading and saying objects were undefined. This was fixed by rechecking the spelling of the variables/objects, and copying and pasting in the right values, and spellings. 
 
-3. I had a few accidents organising the JSON file, I mixed up the days so some were being called twice, and also mixed up the variable names. Hence why there are some variable changes as evidenced in the commits of this project. 
-
-4. When calling objects from the JSON file often they came up as undefined, this was normally due to typos, however with the objects in the weather aray such as icon/code/description, the only way to get them to display was through chaining them. I have discussed this in more detail in the bugs seciton of this README.
+3. When calling objects from the JSON file often they came up as undefined, this was normally due to typos, however with the objects in the weather aray such as icon/code/description, the only way to get them to display was through chaining them. I have discussed this in more detail in the bugs seciton of this README.
 
 
 ### CSS Development
@@ -117,7 +111,7 @@ CSS is used to style the site, due to the project being asked the value function
 
 ### React Development 
 
-The React development of this site was a fun, and interesting challenge. I had worked a bit in React before, but not to this scale, and loved learning more of this framework. Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site. 
+ Emphasis was placed on ensuring all variables had suitable names and followed some kind of structure and the code used was readable. React Hooks was used to help filter the JSON file used in this project, and React Router was used for the navigation of the site. 
 
 The variables used in this app I have tried to keep similar to what is happening. For example the records in the forecast pages are the same as the day that has been clicked. Example Day 12 being "twelfth record". The exception of this is DayTwo which is set to detailedRecord, as this is the first that is being called. 
 
@@ -199,11 +193,7 @@ The design of the site is something I'd like to work a lot more on. I'd like to 
 
 ## **Credits**
 
-For this project I'd like to credit: my family for their support, my mentor Tim Nelson for his support with past projects and for encouraging me to go for this job, and 12 Oaks Software for sending out this enjoyable project.
-
-### Icons
-
-The icons for this project were sent out as part of the challenge and have been used where I think appropriate. I do not own these. All rights go to their respectful owners.
+For this project I'd like to credit: my family for their support, my mentor Tim Nelson for his support with past projects.
 
 ### React Framework 
 
